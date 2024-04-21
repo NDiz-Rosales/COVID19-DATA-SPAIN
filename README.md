@@ -329,6 +329,7 @@ between 16 and 64 and over 65 years.</p>
   available, to take into consideration the population effect of
   COVID-19 in 2020.</p>
 - <p align="justify">We then define the following variables:</p>
+
    - <strong>POP_2021</strong>: Total number of inhabitants per H.A.
    - <strong>sex0</strong>: Base 1 proportion of the number of men.
    - <strong>sex1</strong>: Base 1 proportion of the number of women.
@@ -340,6 +341,7 @@ between 16 and 64 and over 65 years.</p>
    - <strong>age1</strong>: Base 1 proportion of persons aged between 16 and 64 years
     of age.
    - <strong>age2</strong>: Base 1 proportion of persons aged over 64 years.
+     
 - <p align="justify">Finally, to obtain the values of the variables, we aggregate, for each
   H.A., the information collected by the INE at the municipality level.</p>
 
