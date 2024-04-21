@@ -90,10 +90,7 @@ COVID-19 patients** by health area and day in Castilla y León.</p>
 > - **mapCastillaLeon.png**: image represented in [Figure 2](#figure2).
 
 
-The domains or spatial areas of interest correspond to the Health Areas
-(H.A.) of Castilla y León, an Autonomous Community in Spain, located, as
-can be seen in [Figure 1](#figure1), in the north-western fringe of
-the Peninsula.
+<p align="justify">The domains or spatial areas of interest correspond to the Health Areas (H.A.) of Castilla y León, an Autonomous Community in Spain, located, as can be seen in [Figure 1](#figure1), in the north-western fringe of the Peninsula.</p>
 
 <p align="center">
   <a id="figure1"></a>
@@ -102,36 +99,29 @@ the Peninsula.
   <em>Figure 1: Geographical location of Castilla y León.</em>
 </p>
 
-The spatial domains of interest correspond to its 11 H.A., as shown in
-[Figure 2](#figure2).
+<p align="justify">The spatial domains of interest correspond to its 11 H.A., as shown in [Figure 2](#figure2).</p>
 
 <p align="center">
+  <a id="figure2"></a>
   <img alt="figure2" src="./README_COVID_files/mapCastillaLeon.png">
   <br>
     <em>Figure 2: H.A. of Castilla y León.</em>
 </p>
 
-<div style="text-align: justify;">
 
-To define the correspondence between the H.A. and the municipalities
-they cover, we consulted
-
-</div>
+<p align="justify">To define the correspondence between the H.A. and the municipalities they cover, we consulted:</p>
 
 - [Territorial Health Planning in the Autonomous Communities
   2021](https://www.sanidad.gob.es/estadEstudios/estadisticas/docs/siap/Ordenacion_sanitaria_2021.pdf)
 - [Castilla y León Health Planning
   Guide](https://www.saludcastillayleon.es/institucion/es/organizacion/ordenacion-sistema-sanitario/guia-ordenacion-sanitaria-castilla-leon)
 
-<div style="text-align: justify;">
 
-As a result, we obtain the file **municipality_health_areas.csv** with
+<p align="justify"> As a result, we obtain the file <strong>municipality_health_areas.csv</strong> with
 the H.A-municipalities correspondence, attached in the **HEALTH AREAS**
 folder and whose header is illustrated below. Specifically, there are
 2248 rows and 7 columns.This corresponds to the 2248 municipalities in
-Castilla y León and the following variables:
-
-</div>
+Castilla y León and the following variables:</p>
 
 - **ID_HA**: Official H.A. identifier code.
 - **HA**: Name of the H.A.
