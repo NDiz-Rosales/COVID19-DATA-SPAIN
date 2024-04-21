@@ -86,38 +86,23 @@ COVID-19 patients** by health area and day in Castilla y León.</p>
 > The data files and images referenced in this section are located in the **HEALTH AREAS** folder, and correspond to:
 > 
 > - **municipality_health_areas.csv**: file corresponding to the equivalences between municipalities and health areas or H.A.
-> - **mapSpainCL.png**: image represented in [Figura 1](#figura1)
-> - **mapCastillaLeon.png**: image represented in [Figure 2](#fig:healthareaCL).
-
-
-![Geographical location of Castilla y León](./README_COVID_files/mapSpainCL.png)
-Figura 1: Geographical location of Castilla y León.
+> - **mapSpainCL.png**: image represented in [Figure 1](#figure1)
+> - **mapCastillaLeon.png**: image represented in [Figure 2](#figure2).
 
 
 The domains or spatial areas of interest correspond to the Health Areas
 (H.A.) of Castilla y León, an Autonomous Community in Spain, located, as
-can be seen in [Figure 1](#fig:mapSpain), in the north-western fringe of
+can be seen in [Figure 1](#figure1), in the north-western fringe of
 the Peninsula.
 
-</div>
-
-<div id="fig:mapSpain" class="figure" style="text-align: center;">
-<img src="./README_COVID_files/mapSpainCL.png" alt="Geographical location of Castilla y León." style="display: inline-block;">
-<p class="caption">
+![Geographical location of Castilla y León](./README_COVID_files/mapSpainCL.png)
 Figure 1: Geographical location of Castilla y León.
-</p>
-</div>
 
 The spatial domains of interest correspond to its 11 H.A., as shown in
-[Figure 2](#fig:healthareaCL).
+[Figure 2](#figure2).
 
-<div id="fig:mapCastillaLeon" class="figure"
-style="text-align: center;">
-<img src="./README_COVID_files/mapCastillaLeon.png" alt="H.A. of Castilla y León." style="display: inline-block;">
-<p class="caption">
+![H.A. of Castilla y León](./README_COVID_files/mapCastillaLeon.png)
 Figure 2: H.A. of Castilla y León.
-</p>
-</div>
 
 <div style="text-align: justify;">
 
