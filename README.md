@@ -188,8 +188,9 @@ Alpha (B.1.1.7), Delta (B.1.617.2) and Omicron (B.1.1.529).</p>
 
 > [!NOTE]
 > <p align="justify"> The target variable of the model is the count of people hospitalised with COVID-19 in ICU.
-> The data file referenced in this section is located in the **ICU** folder, and corresponds to:
-> - **ICU.csv**: File containing the number of people with suspected COVID-19 admitted to ICU by H.A. and day.
+> The data file referenced in this section is located in the <strong>ICU</strong> folder, and corresponds to:
+ >  
+ > - <strong>ICU.csv</strong>: File containing the number of people with suspected COVID-19 admitted to ICU by H.A. and day.
 </p>
 
 > <p align="justify"> For its construction, we carry out the following steps:
