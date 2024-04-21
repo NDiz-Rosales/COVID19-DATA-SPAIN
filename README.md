@@ -385,8 +385,8 @@ blocks: **sociodemographic factors** and **epidemiological factors**, as
 shown in the diagram.
 
 <div style="position: relative;">
-  <img src="README_COVID_files/figure-gfm/unnamed-chunk-3-1.png" alt="Texto alternativo" style="width: 100%;">
-  <a href="#31-sociodemographic-indicators" style="position: absolute; top: 0; left: 0; width: 33%; height: 100%;"></a>
+  <img src="README_COVID_files/auxiliar_information.png" alt="Texto alternativo" style="width: 100%;">
+  <a href="#31-sociodemographic-indicators" style="position: absolute; top: 44.8649%; left: 24.6875%; width: 23.125%%; height: 100%;"></a>
   <a href="#311-population" style="position: absolute; top: 0; left: 33%; width: 33%; height: 100%;"></a>
   <a href="#312-population-density" style="position: absolute; top: 0; left: 66%; width: 34%; height: 100%;"></a>
 </div>
