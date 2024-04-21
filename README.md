@@ -237,9 +237,9 @@ Alpha (B.1.1.7), Delta (B.1.617.2) and Omicron (B.1.1.529).</p>
   and Sunday 11 July 2021. To perform the imputation of these four
   missing occupancy values, we rely on the data available for these
   dates in:</p>
-  - <p align="justify"> <a href="https://analisis.datosabiertos.jcyl.es/explore/dataset/indicadores-de-riesgo-covid-19-por-provincias/table/?disjunctive.indicador&sort=fecha">COVID-19 risk indicators by provinces up to
+  - <p align="justify"><a href="https://analisis.datosabiertos.jcyl.es/explore/dataset/indicadores-de-riesgo-covid-19-por-provincias/table/?disjunctive.indicador&sort=fecha">COVID-19 risk indicators by provinces up to
     24-03-22</a>.</p>
-  - <p align="justify"> <a href="https://analisis.datosabiertos.jcyl.es/explore/dataset/indicadores-de-riesgo-covid-19-por-municipios/table/?disjunctive.provincia&sort=fecha">COVID-19 risk indicators by municipalities until
+  - <p align="justify"><a href="https://analisis.datosabiertos.jcyl.es/explore/dataset/indicadores-de-riesgo-covid-19-por-municipios/table/?disjunctive.provincia&sort=fecha">COVID-19 risk indicators by municipalities until
     24-03-2022</a>.</p>
 
 - <p align="justify"> Once the allocation of the H.A. of each hospital has been carried out
@@ -291,8 +291,8 @@ factors such as population, population density and the ratio of nursing
 home places per 100 inhabitants over 65 years of age.</p>
 > [!NOTE]
 > <p align="justify">The data files referenced in this section are located in the <strong>SOCIODEMOGRAPHIC INDICATORS</strong> folder and correspond to:</p>
-> - <p align="justify"><strong>ORIGINAL SOURCES</strong>: Folder containing the original data files downloaded from each source web page referenced. Specifically:</p>
->   - - <p align="justify"><strong>population_municipalities.csv</strong>: Data file of the Instituto Nacional de Estadística (INE) corresponding to 2021 Population and Housing Census, containing information on the <a href="https://ine.es/jaxiT3/Tabla.htm?t=33571&L=0">2021 Population by sex, municipalities, nationality (Spanish/foreign) and age (large groups)</a>.</p>
+> -<p align="justify"><strong>ORIGINAL SOURCES</strong>: Folder containing the original data files downloaded from each source web page referenced. Specifically:</p>
+>   - -<p align="justify"><strong>population_municipalities.csv</strong>: Data file of the Instituto Nacional de Estadística (INE) corresponding to 2021 Population and Housing Census, containing information on the <a href="https://ine.es/jaxiT3/Tabla.htm?t=33571&L=0">2021 Population by sex, municipalities, nationality (Spanish/foreign) and age (large groups)</a>.</p>
 >   - - <p align="justify"><strong>surface_municipalities.csv</strong>: Data file of the Instituto Geográfico Nacional (IGN), specifically the <a href="https://www.ign.es/web/rcc-nomenclator-nacional.">“Geographic Nomenclator of Municipalities and Population Entities”</a> showing the geographical surface of each territory.</p>
 >   - - <p align="justify"><strong>retirement home_places.csv</strong>: Data files from the open data portal <a href="https://envejecimientoenred.csic.es/datos-abiertos/residencias/">“Envejecimiento en Red”</a>, detailing, for each province, the existing old people’s homes, as well as their number of places and municipal location.</p>
 >       - <p align="justify"><strong>retirement home_places_avila.csv</strong>.</p>
