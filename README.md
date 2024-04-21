@@ -405,8 +405,8 @@ home places per 100 inhabitants over 65 years of age.
 </div>
 <p>
 <div style="border: 2px solid black; padding: 10px; background-color: #EAFCEA; text-align: justify;">
-    The data files referenced in this section are located in the
-**SOCIODEMOGRAPHIC INDICATORS** folder and correspond to:
+
+  The data files referenced in this section are located in the **SOCIODEMOGRAPHIC INDICATORS** folder and correspond to:
 
 - **ORIGINAL SOURCES**: Folder containing the original data files
   downloaded from each source web page referenced. Specifically:
