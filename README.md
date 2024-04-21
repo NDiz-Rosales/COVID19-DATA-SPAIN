@@ -95,11 +95,7 @@ The domains or spatial areas of interest correspond to the Health Areas
 can be seen in [Figure 1](#figure1), in the north-western fringe of
 the Peninsula.
 
-<p align="center">
-  <img alt="#figure1" src="./README_COVID_files/mapSpainCL.png">
-  <br>
-    <em>Figure 1: Geographical location of Castilla y León.</em>
-</p>
+
 
 The spatial domains of interest correspond to its 11 H.A., as shown in
 [Figure 2](#figure2).
@@ -171,7 +167,11 @@ head(data)
 ## 1.2 Temporal domains
 
 <div style="text-align: justify;">
-
+<p align="center">
+  <img alt="figure1" src="./README_COVID_files/mapSpainCL.png">
+  <br>
+    <em>Figure 1: Geographical location of Castilla y León.</em>
+</p>
 The temporal domains of interest correspond to **488 consecutive days**
 for each H.A., collected from **2 November 2020 to 6 March 2022**. Of
 this total, it should be specified that the 181 days between 2 November
