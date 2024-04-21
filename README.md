@@ -50,9 +50,7 @@ path<-"D:/COVID_DATA"
 setwd(path)
 ```
 
-
-
-> <p align="justify">There are no special hardware requirements for data handling. For
+<p align="justify">There are no special hardware requirements for data handling. For
 reference, the construction of the dataset was carried out on a computer
 with a 7-core processor, with a RAM of 16.0 GB and a maximum processor
 speed of 1.50 GHz. As for the software, the operating system was Windows
@@ -78,41 +76,17 @@ if(!require(knitr)){
 
 # Section 1. Spatial and temporal domains
 
-
-<br>
-<p>
-
-<div style="border: 2px solid black; padding: 10px; background-color: #EAFCEA;text-align: justify;">
-
-The main objective of this research is to **estimate and predict the
+<p align="justify">The main objective of this research is to **estimate and predict the
 count and proportions of intensive care unit (ICU) beds occupied by
-COVID-19 patients** by health area and day in Castilla y León.
-
-</div>
-
-</p>
-<br>
-<p>
-<div style="text-align: justify;">
+COVID-19 patients** by health area and day in Castilla y León.</p>
 
 ## 1.1 Spatial domains
 
-<div style="border: 2px solid #00B050; padding: 10px; background-color: #D9F4E3; text-align: center; text-align: justify;">
-<p>
-
-The data files and images referenced in this section are located in the
-**HEALTH AREAS** folder, and correspond to:
-
-- **municipality_health_areas.csv**: file corresponding to the
-  equivalences between municipalities and health areas or H.A.
-- **mapSpainCL.png**: image represented in [Figure 1](#fig:mapSpain).
-- **mapCastillaLeon.png**: image represented in [Figure
-  2](#fig:healthareaCL).
-  </p>
-  </div>
-
-</div>
-
+> [!NOTE]
+> <p align="justify">The data files and images referenced in this section are located in the **HEALTH AREAS** folder, and correspond to:
+  - **municipality_health_areas.csv**: file corresponding to the equivalences between municipalities and health areas or H.A.
+  - **mapSpainCL.png**: image represented in [Figure 1](#fig:mapSpain).
+  - **mapCastillaLeon.png**: image represented in [Figure 2](#fig:healthareaCL).</p>
 <div style="text-align: justify;">
 
 The domains or spatial areas of interest correspond to the Health Areas
