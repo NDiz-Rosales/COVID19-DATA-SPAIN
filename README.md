@@ -367,19 +367,18 @@ following steps.</p>
 affected older people in general, and in particular retirement home care
 homes. It is estimated that there should be a minimum of 5 retirement
 home care places for every 100 inhabitants over the age of 65. To
-calculate this ratio, we need to find the number of places.</p>.
+calculate this ratio, we need to find the number of places.</p>
 
-- First, we took the data from the Open Data portal [“Envejecimiento en
-  Red”](https://envejecimientoenred.csic.es/datos-abiertos/residencias/),
-  where the information was located at municipality level.
-- Based on the Municipality-H.A. correlation, we aggregated the
-  information and calculated the ratio of retirement home places by H.A.
+- <p align="justify">First, we took the data from the Open Data portal <a href="https://envejecimientoenred.csic.es/datos-abiertos/residencias/">“Envejecimiento en
+  Red”</a>, where the information was located at municipality level.</p>
+- <p align="justify">Based on the Municipality-H.A. correlation, we aggregated the
+  information and calculated the ratio of retirement home places by H.A.</p>
 
 
 ### 3.1.4 Assessment of sociodemographic indicators
 
 <p align="justify"> All variables are combined in the sociodemographic indicators file for
-each H.A.</p>.
+each H.A.</p>
 
 ``` r
 # Load the data.table library and the knitr library
@@ -429,19 +428,17 @@ Finally, with regard to the ratio of retirement home care home places
 per 100 people over 65 years of age, in all H.A. the minimum recommended
 5% is reached, with H.A. Soria standing out with the highest rate, and
 H.A. El Bierzo with the lowest, but always higher than the national
-average.</p>.
+average.</p>
 
 
 ## 3.2 Epidemiological indicators
 
-We proceed to characterise the H.A. based on epidemiological factors,
-following the guidelines indicated in the [Epidemic Surveillance
+<p align="justify">We proceed to characterise the H.A. based on epidemiological factors,
+following the guidelines indicated in the <a href="https://www.sanidad.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/documentos/Nueva_estrategia_vigilancia_y_control.pdf">Epidemic Surveillance
 Strategies of the Ministry of
-Health.](https://www.sanidad.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/documentos/Nueva_estrategia_vigilancia_y_control.pdf)
-In this way, we create indicator variables for disease transmissibility,
-disease severity and care pressure.
-
-
+Health</a>. In this way, we create indicator variables for disease transmissibility,
+disease severity and care pressure.</p>
+ 
 
 > [!NOTE]
 > <p align="justify"> The data files referenced in this section are located in the <strong>EPIDEMIOLOGICAL INDICATORS</strong> folder and correspond to:</p>
