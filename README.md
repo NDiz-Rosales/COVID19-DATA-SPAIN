@@ -1,17 +1,9 @@
 Construction and descriptive COVID-19 databases by health area and day
 in Spain[^1]
 ================
-true
 2024-04-08
 
 ------------------------------------------------------------------------
-
-<style>
-.justify-text {
-  text-align: justify;
-}
-</style>
-
 # Structure
 
 - [What to find in this repository?](#what-to-find-in-this-repository?)
@@ -32,10 +24,8 @@ true
     - [3.2.3 Care pressure](#323-care-pressure)
 - [Section 4. Definitive Dataset](#section-4-definitive-dataset)
 
-<div style="text-align: justify;">
 
 ## What to find in this repository?
-</div>
 
 > [!NOTE]
 > <p align="justify"> This repository includes highly detailed datasets on transmission variables, severity and healthcare pressure caused by COVID-19. Specifically, data have been collected and processed for the health areas of Castilla y León with observations between 02/11/2020 and 06/03/2022. If any user has any doubts or curiosity, please contact the first author. </p>
@@ -89,8 +79,7 @@ COVID-19 patients</strong> by health area and day in Castilla y León.</p>
 > - **mapSpainCL.png**: image represented in [Figure 1](#figure1).
 > - **mapCastillaLeon.png**: image represented in [Figure 2](#figure2).
 
-
-<p align="justify">The domains or spatial areas of interest correspond to the Health Areas (H.A.) of Castilla y León, an Autonomous Community in Spain, located, as can be seen in [Figure 1](#figure1), in the north-western fringe of the Peninsula.</p>
+The domains or spatial areas of interest correspond to the Health Areas (H.A.) of Castilla y León, an Autonomous Community in Spain, located, as can be seen in [Figure 1](#figure1), in the north-western fringe of the Peninsula.
 
 <p align="center">
   <a id="figure1"></a>
@@ -99,7 +88,7 @@ COVID-19 patients</strong> by health area and day in Castilla y León.</p>
   <em>Figure 1: Geographical location of Castilla y León.</em>
 </p>
 
-<p align="justify">The spatial domains of interest correspond to its 11 H.A., as shown in [Figure 2](#figure2).</p>
+The spatial domains of interest correspond to its 11 H.A., as shown in [Figure 2](#figure2).
 
 <p align="center">
   <a id="figure2"></a>
@@ -161,15 +150,13 @@ head(data)
 
 ## 1.2 Temporal domains
 
-<div style="text-align: justify;">
-
-The temporal domains of interest correspond to **488 consecutive days**
-for each H.A., collected from **2 November 2020 to 6 March 2022**. Of
+<p align="justify"> The temporal domains of interest correspond to <strong>488 consecutive days</strong>
+for each H.A., collected from <strong>2 November 2020 to 6 March 2022</strong>. Of
 this total, it should be specified that the 181 days between 2 November
 2020 and 2 May 2021 are used to assess the adjustment capacity of the
 model. On the other hand, the remaining 307 days, from 3 May 2021 to 6
 March 2022, are used to assess the quality of the forward forecast with
-data that have not been used in the model fit.
+data that have not been used in the model fit.</p>
 
 According to the [Centro Nacional de Epidemiología
 (CNE)](https://www.isciii.es/QueHacemos/Servicios/VigilanciaSaludPublicaRENAVE/EnfermedadesTransmisibles/Documents/INFORMES/Informes%20COVID-19/INFORMES%20COVID-19%202022/Informe%20n%C2%BA%20154%20Situaci%C3%B3n%20actual%20de%20COVID-19%20en%20Espa%C3%B1a%20a%2011%20de%20noviembre%20de%202022.pdf),
@@ -191,40 +178,21 @@ a total of five epidemic periods (EP) occurred during this time range.
   March 2022, the last day before the implementation of a new
   epidemiological surveillance strategy.
 
-In the same vein, the 488 days under study allow to take into
+<p align="justify"> In the same vein, the 488 days under study allow to take into
 consideration the impact of three main SARS-CoV-2 variants, which were
 considered by the European Centre for Disease Prevention and Control as
 Variants of Concern (VOC) for their significant epidemiological impact:
-Alpha (B.1.1.7), Delta (B.1.617.2) and Omicron (B.1.1.529).
-
-</div>
-
-<div style="text-align: justify;">
+Alpha (B.1.1.7), Delta (B.1.617.2) and Omicron (B.1.1.529).</p>
 
 # Section 2. Target variable: ICU
 
-</div>
-
-<p>
-
-<div style="border: 2px solid black; padding: 10px; background-color: #EAFCEA;text-align: justify;">
-
-The target variable of the model is the count of people hospitalised
-with COVID-19 in ICU.
-
-The data file referenced in this section is located in the **ICU**
-folder, and corresponds to:
-
-- **ICU.csv**: File containing the number of people with suspected
-  COVID-19 admitted to ICU by H.A. and day.
-
-</div>
-
+> [!NOTE]
+> <p align="justify"> The target variable of the model is the count of people hospitalised with COVID-19 in ICU.
+> The data file referenced in this section is located in the **ICU** folder, and corresponds to:
+> - **ICU.csv**: File containing the number of people with suspected COVID-19 admitted to ICU by H.A. and day.
 </p>
 
-<div style="text-align: justify;">
-
-For its construction, we carry out the following steps:
+> <p align="justify"> For its construction, we carry out the following steps:
 
 - We consulted the Open Data portal of the Junta de Castilla y León. We
   downloaded the database [“Situation of hospitalised patients with
@@ -282,7 +250,7 @@ For its construction, we carry out the following steps:
   hospitalised in ICU is carried out, by H.A. and day, saved in the
   **ICU** csv file, the header of which can be seen below.
 
-</div>
+</p>
 
 ``` r
 # Load the data.table library
