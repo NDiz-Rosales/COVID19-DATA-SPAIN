@@ -40,18 +40,12 @@ true
 > [!NOTE]
 > <p align="justify"> This repository includes highly detailed datasets on transmission variables, severity and healthcare pressure caused by COVID-19. Specifically, data have been collected and processed for the health areas of Castilla y León with observations between 02/11/2020 and 06/03/2022. If any user has any doubts or curiosity, please contact the first author. </p>
 
-<div style="text-align: justify;">
-
+<p align="justify">
 ## Hardware and Software
-
-</div>
-
-<div style="border: 2px solid red; padding: 10px; background-color: lightyellow;">
-
-<p style="margin: 0;">
-It is recommended to download the repository and to indicate in path the
-directory where the folders are stored, to facilitate the execution.
 </p>
+
+> [!TIP]
+> <p align="justify"> It is recommended to download the repository and to indicate in path the directory where the folders are stored, to facilitate the execution. </p>
 
 ``` r
 path<-"D:/COVID_DATA"
