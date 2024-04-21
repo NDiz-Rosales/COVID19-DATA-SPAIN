@@ -15,7 +15,7 @@ true
 # Structure
 
 - [What to find in this repository?](#what-to-find-in-this-repository?)
-- [Hardware and Software](#HS)
+- [Hardware and Software](#hardware-and-software)
 - [Section 1. Spatial and temporal domains](#S1)
   - [1.1 Spatial domains](#S11)
   - [1.2 Temporal domains](#S12)
