@@ -88,7 +88,7 @@ COVID-19 patients</strong> by health area and day in Castilla y León.</p>
   <em>Figure 1: Geographical location of Castilla y León.</em>
 </p>
 
-The spatial domains of interest correspond to its 11 H.A., as shown in [Figure 2](#figure2).
+<p align="justify"> The spatial domains of interest correspond to its 11 H.A., as shown in <a href="#figure2">Figure 2</a>.</p>
 
 <p align="center">
   <a id="figure2"></a>
@@ -100,10 +100,10 @@ The spatial domains of interest correspond to its 11 H.A., as shown in [Figure 2
 
 <p align="justify">To define the correspondence between the H.A. and the municipalities they cover, we consulted:</p>
 
-- [Territorial Health Planning in the Autonomous Communities
-  2021](https://www.sanidad.gob.es/estadEstudios/estadisticas/docs/siap/Ordenacion_sanitaria_2021.pdf)
-- [Castilla y León Health Planning
-  Guide](https://www.saludcastillayleon.es/institucion/es/organizacion/ordenacion-sistema-sanitario/guia-ordenacion-sanitaria-castilla-leon)
+- <p align="justify"> <a href="https://www.sanidad.gob.es/estadEstudios/estadisticas/docs/siap/Ordenacion_sanitaria_2021.pdf">Territorial Health Planning in the Autonomous Communities
+  2021</a></p>.
+- <p align="justify">[Castilla y León Health Planning
+  Guide](https://www.saludcastillayleon.es/institucion/es/organizacion/ordenacion-sistema-sanitario/guia-ordenacion-sanitaria-castilla-leon)</p>
 
 
 <p align="justify"> As a result, we obtain the file <strong>municipality_health_areas.csv</strong> with
