@@ -384,6 +384,17 @@ at factors that could influence it, classifying them into two large
 blocks: **sociodemographic factors** and **epidemiological factors**, as
 shown in the diagram.
 
+<div style="position: relative;">
+  <img src="README_COVID_files/figure-gfm/unnamed-chunk-3-1.png" alt="Texto alternativo" style="width: 100%;">
+  <a href="#seccion1" style="position: absolute; top: 0; left: 0; width: 33%; height: 100%;"></a>
+  <a href="#seccion2" style="position: absolute; top: 0; left: 33%; width: 33%; height: 100%;"></a>
+  <a href="#seccion3" style="position: absolute; top: 0; left: 66%; width: 34%; height: 100%;"></a>
+</div>
+
+
+
+
+
 </div>
 
 <div style="margin-top: -300px; margin-bottom: -300px;">
