@@ -231,7 +231,7 @@ Alpha (B.1.1.7), Delta (B.1.617.2) and Omicron (B.1.1.529).</p>
   - <p align="justify">H.A. Zamora: Complejo Asistencial de Zamora.</p>
 
 - <p align="justify"> We checked the available time range to see if there are observations
-  for all the days between <strong>02/11/2020 and 06/03/2022</strong>strong>. Thus, we find
+  for all the days between <strong>02/11/2020 and 06/03/2022</strong>. Thus, we find
   that data are missing for four dates, corresponding to the following
   days: Saturday 3 July 2021, Sunday 4 July 2021, Saturday 10 July 2021,
   and Sunday 11 July 2021. To perform the imputation of these four
