@@ -401,9 +401,10 @@ factors such as population, population density and the ratio of nursing
 home places per 100 inhabitants over 65 years of age.
 
 </div>
-
+> [!NOTE]  
+> Highlights information that users should take into account, even when skimming.
 [!NOTE]
-  The data files referenced in this section are located in the **SOCIODEMOGRAPHIC INDICATORS** folder and correspond to:
+The data files referenced in this section are located in the **SOCIODEMOGRAPHIC INDICATORS** folder and correspond to:
   
   - **ORIGINAL SOURCES**: Folder containing the original data files
     downloaded from each source web page referenced. Specifically:
