@@ -40,9 +40,7 @@ true
 > [!NOTE]
 > <p align="justify"> This repository includes highly detailed datasets on transmission variables, severity and healthcare pressure caused by COVID-19. Specifically, data have been collected and processed for the health areas of Castilla y León with observations between 02/11/2020 and 06/03/2022. If any user has any doubts or curiosity, please contact the first author. </p>
 
-<p align="justify">
 ## Hardware and Software
-</p>
 
 > [!TIP]
 > <p align="justify"> It is recommended to download the repository and to indicate in path the directory where the folders are stored, to facilitate the execution. </p>
@@ -52,19 +50,16 @@ path<-"D:/COVID_DATA"
 setwd(path)
 ```
 
-</div>
 
-<div style="text-align: justify;">
 
-There are no special hardware requirements for data handling. For
+> <p align="justify">There are no special hardware requirements for data handling. For
 reference, the construction of the dataset was carried out on a computer
 with a 7-core processor, with a RAM of 16.0 GB and a maximum processor
 speed of 1.50 GHz. As for the software, the operating system was Windows
 10 and both the creation and reading of the datasets was done with the R
 programming language (version 4.2.2 and higher), highlighting the
-following packages for reading and handling the data.
+following packages for reading and handling the data.</p>
 
-</div>
 
 ``` r
 # Reading csv files in R, especially recommended for large data volumes.
@@ -80,11 +75,9 @@ if(!require(knitr)){
 }
 ```
 
-<div style="text-align: justify;">
 
 # Section 1. Spatial and temporal domains
 
-</div>
 
 <br>
 <p>
