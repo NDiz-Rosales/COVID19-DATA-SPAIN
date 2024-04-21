@@ -236,11 +236,12 @@ Alpha (B.1.1.7), Delta (B.1.617.2) and Omicron (B.1.1.529).</p>
   days: Saturday 3 July 2021, Sunday 4 July 2021, Saturday 10 July 2021,
   and Sunday 11 July 2021. To perform the imputation of these four
   missing occupancy values, we rely on the data available for these
-  dates in:</p>
-  - <p align="justify"><a href="https://analisis.datosabiertos.jcyl.es/explore/dataset/indicadores-de-riesgo-covid-19-por-provincias/table/?disjunctive.indicador&sort=fecha">COVID-19 risk indicators by provinces up to
-    24-03-22</a>.</p>
-  - <p align="justify"><a href="https://analisis.datosabiertos.jcyl.es/explore/dataset/indicadores-de-riesgo-covid-19-por-municipios/table/?disjunctive.provincia&sort=fecha">COVID-19 risk indicators by municipalities until
-    24-03-2022</a>.</p>
+  dates in:
+  - <a href="https://analisis.datosabiertos.jcyl.es/explore/dataset/indicadores-de-riesgo-covid-19-por-provincias/table/?disjunctive.indicador&sort=fecha">COVID-19 risk indicators by provinces up to
+    24-03-22</a>.
+  - <a href="https://analisis.datosabiertos.jcyl.es/explore/dataset/indicadores-de-riesgo-covid-19-por-municipios/table/?disjunctive.provincia&sort=fecha">COVID-19 risk indicators by municipalities until
+    24-03-2022</a>.
+    </p>
 
 - <p align="justify"> Once the allocation of the H.A. of each hospital has been carried out
   and with the target time range complete, the aggregation of those
