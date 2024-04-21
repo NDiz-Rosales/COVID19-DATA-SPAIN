@@ -148,12 +148,10 @@ the Peninsula.
 </div>
 
 <div id="fig:mapSpain" class="figure" style="text-align: center;">
-
 <img src="./README_COVID_files/mapSpainCL.png" alt="Geographical location of Castilla y León." style="display: inline-block;">
 <p class="caption">
 Figure 1: Geographical location of Castilla y León.
 </p>
-
 </div>
 
 The spatial domains of interest correspond to its 11 H.A., as shown in
@@ -161,18 +159,10 @@ The spatial domains of interest correspond to its 11 H.A., as shown in
 
 <div id="fig:mapCastillaLeon" class="figure"
 style="text-align: center;">
-
 <img src="./README_COVID_files/mapCastillaLeon.png" alt="H.A. of Castilla y León." style="display: inline-block;">
 <p class="caption">
 Figure 2: H.A. of Castilla y León.
 </p>
-
-
-<div style="text-align:center;">
-    ![H.A. of Castilla y León]("./README_COVID_files/mapCastillaLeon.png")
-</div>
-
-
 </div>
 
 <div style="text-align: justify;">
