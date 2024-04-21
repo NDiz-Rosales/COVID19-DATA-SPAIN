@@ -454,8 +454,7 @@ disease severity and care pressure.</p>
 > - <p align="justify"><strong>COVID19_SEVERITY_INDICATORS_LAGS.csv</strong>: csv file constructed with all epidemiological indicators on the severity of the disease, specified by H.A. and day.</p>
 > - <p align="justify"><strong>COVID19_CARE_PRESSURE_INDICATORS_LAGS.csv</strong>: csv file constructed with all epidemiological indicators on COVID-19 care pressure, specified by H.A. and day.</p>
 
-<a href="https://analisis.datosabiertos.jcyl.es/explore/dataset/tasa-enfermos-acumulados-por-areas-de-salud/information/?flg=es-es&disjunctive.zbs_geo&sort=fecha">Sickness rate by basic health
-  areas.</a>
+
 ### 3.2.1 Disease spread
 
 <p align="justify">For its construction, we carry out the following steps:</p>
@@ -538,31 +537,29 @@ head(data[,1:12])
 
 ### 3.2.2 Disease severity
 
-<div style="text-align: justify;">
-
-We consulted the Open Data Portal of the Junta de Castilla y León. We
-downloaded four databases. [Situation of hospitalised coronavirus
+<p align="justify">We consulted the Open Data Portal of the Junta de Castilla y León. We
+downloaded four databases. <a href="https://analisis.datosabiertos.jcyl.es/explore/dataset/situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon/information/?flg=es-es&sort=fecha">“Situation of hospitalised coronavirus
 patients in Castilla y
-León](https://analisis.datosabiertos.jcyl.es/explore/dataset/situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon/information/?flg=es-es&sort=fecha),
-[Hospital bed
-occupancy](https://analisis.datosabiertos.jcyl.es/explore/dataset/ocupacion-de-camas-en-hospitales/table/?flg=es-es&sort=fecha),
-[Covid mortality rate by basic health
-areas](https://analisis.datosabiertos.jcyl.es/explore/dataset/tasa-mortalidad-covid-por-zonas-basicas-de-salud/information/?sort=fecha)
-and [Mortality rate by basic health
-areas](https://analisis.datosabiertos.jcyl.es/explore/dataset/tasa-mortalidad-por-centros-de-salud/table/?flg=es-es&sort=fecha).
+León”</a>,
+<a href="https://analisis.datosabiertos.jcyl.es/explore/dataset/ocupacion-de-camas-en-hospitales/table/?flg=es-es&sort=fecha">“Hospital bed
+occupancy”</a>,
+<a href="https://analisis.datosabiertos.jcyl.es/explore/dataset/tasa-mortalidad-covid-por-zonas-basicas-de-salud/information/?sort=fecha">“Covid mortality rate by basic health
+areas”</a>
+and <a href="https://analisis.datosabiertos.jcyl.es/explore/dataset/tasa-mortalidad-por-centros-de-salud/table/?flg=es-es&sort=fecha">“Mortality rate by basic health
+areas”</a>.</p>
 
-- [Situation of hospitalised coronavirus patients in Castilla y
-  León](https://analisis.datosabiertos.jcyl.es/explore/dataset/situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon/information/?flg=es-es&sort=fecha).
+- <p align="justify"><a href="https://analisis.datosabiertos.jcyl.es/explore/dataset/situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon/information/?flg=es-es&sort=fecha">Situation of hospitalised coronavirus patients in Castilla y
+  León</a>.
   This database provides information at hospital level about the number
   of patients with COVID-19 or suspected COVID-19 on the ward and in
   ICU; the number of admissions for COVID-19 on the ward and in ICU; and
-  the number of new discharges.
-- [Hospital bed
-  occupancy](https://analisis.datosabiertos.jcyl.es/explore/dataset/ocupacion-de-camas-en-hospitales/table/?flg=es-es&sort=fecha).
+  the number of new discharges.</p>
+- <p align="justify"><a href="https://analisis.datosabiertos.jcyl.es/explore/dataset/ocupacion-de-camas-en-hospitales/table/?flg=es-es&sort=fecha">Hospital bed
+  occupancy</a>.
   This database provides information at hospital level about the number
-  of ward and ICU beds available on each date.
-- [Covid mortality rate by basic health
-  areas](https://analisis.datosabiertos.jcyl.es/explore/dataset/tasa-mortalidad-covid-por-zonas-basicas-de-salud/information/?sort=fecha).
+  of ward and ICU beds available on each date.</p>
+- <p align="justify"><a href="https://analisis.datosabiertos.jcyl.es/explore/dataset/tasa-mortalidad-covid-por-zonas-basicas-de-salud/information/?sort=fecha">Covid mortality rate by basic health
+  areas</a>.
   This database provides information at the Basic Health Zone level
   about the number of deceased persons diagnosed with COVID-19 (both
   confirmed and with symptoms compatible with the disease). As
@@ -570,111 +567,109 @@ areas](https://analisis.datosabiertos.jcyl.es/explore/dataset/tasa-mortalidad-po
   persons with a positive diagnostic test in their Primary Care
   Electronic Health Record in the three months prior to their death are
   counted. Furthermore, as specified, the diagnosis of COVID-19 prior to
-  death does not imply that this disease was the direct cause of death.
-- [Mortality rate by basic health
-  areas](https://analisis.datosabiertos.jcyl.es/explore/dataset/tasa-mortalidad-por-centros-de-salud/table/?flg=es-es&sort=fecha).
+  death does not imply that this disease was the direct cause of death.</p>
+- <p align="justify"><a href="https://analisis.datosabiertos.jcyl.es/explore/dataset/tasa-mortalidad-por-centros-de-salud/table/?flg=es-es&sort=fecha">Mortality rate by basic health
+  areas</a>.
   This database provides information at the Basic Health Zone level,
-  about the number of deceased persons, not only by COVID-19.
+  about the number of deceased persons, not only by COVID-19.</p>
 
-To construct the epidemiological indicators of severity, we proceeded
-with the following steps.
+<p align="justify">To construct the epidemiological indicators of severity, we proceeded
+with the following steps.</p>
 
-- For hospital-level databases, we performed the hospital-H.A.
-  assignment specified in the [Section 2. Target variable: ICU](#S2),
+- <p align="justify">For hospital-level databases, we performed the hospital-H.A.
+  assignment specified in the <a href="#section-2-target-variable-icu">Section 2. Target variable: ICU</a>,
   and for mortality databases, we performed the Basic Health Area-H.A.
-  assignment with the information provided by the database itself.
-- We checked the availability of data in the target time range between
+  assignment with the information provided by the database itself.</p>
+- <p align="justify">We checked the availability of data in the target time range between
   02/11/2020 and 06/03/2022. In the hospital-level datasets, we found
   that data are missing for four dates, corresponding to the following
   days: Saturday 3 July 2021, Sunday 4 July 2021, Saturday 10 July 2021
   and Sunday 11 July 2021. In addition, in the available bed dataset,
   there is also missing information for Sunday 22/08/2021. To perform
   the imputation of these five missing values, we rely on the data
-  available for these dates at:
-  - [COVID-19 risk indicators by provinces up to
-    24-03-22](https://analisis.datosabiertos.jcyl.es/explore/dataset/indicadores-de-riesgo-covid-19-por-provincias/table/?disjunctive.indicador&sort=fecha).
-  - [COVID-19 risk indicators by municipalities until
-    24-03-2022](https://analisis.datosabiertos.jcyl.es/explore/dataset/indicadores-de-riesgo-covid-19-por-municipios/table/?disjunctive.provincia&sort=fecha).
-- We aggregate the information of the variables by H.A.
-- We defined the indicators explained in the [Epidemic Surveillance
+  available for these dates at:</p>
+  - <p align="justify"><a href="https://analisis.datosabiertos.jcyl.es/explore/dataset/indicadores-de-riesgo-covid-19-por-provincias/table/?disjunctive.indicador&sort=fecha">COVID-19 risk indicators by provinces up to
+    24-03-22</a>.</p>
+  - <p align="justify"><a href="https://analisis.datosabiertos.jcyl.es/explore/dataset/indicadores-de-riesgo-covid-19-por-municipios/table/?disjunctive.provincia&sort=fecha">COVID-19 risk indicators by municipalities until
+    24-03-2022</a>.</p>
+- <p align="justify">We aggregate the information of the variables by H.A.</p>
+- <p align="justify">We defined the indicators explained in the <a href="https://www.sanidad.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/documentos/Nueva_estrategia_vigilancia_y_control.pdf">Epidemic Surveillance
   Strategies of the Ministry of
-  Health](https://www.sanidad.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/documentos/Nueva_estrategia_vigilancia_y_control.pdf),
-  which include the following:
-  - **ward_rate** or population occupancy rate to the ward. Calculated
+  Health</a>,
+  which include the following:</p>
+  - <p align="justify"><strong>ward_rate</strong> or population occupancy rate to the ward. Calculated
     as the percentage ratio of the proportion of people with COVID-19 in
-    ward beds to the total population per 100,000 inhabitants.
-  - **acute_rate** or ICU population occupancy rate. Calculated as the
+    ward beds to the total population per 100,000 inhabitants.</p>
+  - <p align="justify"><strong>acute_rate</strong> or ICU population occupancy rate. Calculated as the
     percentage ratio of the proportion of people with COVID-19 in ICU
-    beds to the total population per 100,000 inhabitants.
-  - **acute_rate7** or rate of ICU inpatients in relation to the overall
+    beds to the total population per 100,000 inhabitants.</p>
+  - <p align="justify"><strong>acute_rate7</strong> or rate of ICU inpatients in relation to the overall
     number of COVID-19 inpatients at 7 days. Calculated as the
     percentage ratio of COVID-19 ICU inpatients to the total number of
-    COVID-19 inpatients at 7 days.
-  - **acute_rate14** or rate of hospitalised patients in ICU in relation
+    COVID-19 inpatients at 7 days.</p>
+  - <p align="justify"><strong>acute_rate14</strong> or rate of hospitalised patients in ICU in relation
     to the overall number of patients admitted for COVID-19 at 14 days.
     Calculated as the percentage ratio between those hospitalised by
     COVID-19 in ICU and the total number of those hospitalised by
-    COVID-19 at 14 days.
-  - **ward_rate7** or rate of hospitalised patients on the ward in
+    COVID-19 at 14 days.</p>
+  - <p align="justify"><strong>ward_rate7</strong> or rate of hospitalised patients on the ward in
     relation to the overall number of patients admitted for COVID-19 at
     7 days. Calculated as the percentage ratio between those
     hospitalised for COVID-19 on the ward and the total number of those
-    hospitalised by COVID-19 at 7 days.
-  - **ward_rate14** or rate of hospitalised patients on the ward in
+    hospitalised by COVID-19 at 7 days.</p>
+  - <p align="justify"><strong>ward_rate14</strong> or rate of hospitalised patients on the ward in
     relation to the overall number of patients admitted for COVID-19 at
     14 days. Calculated as the percentage ratio between those
     hospitalised for COVID-19 on the ward and the total number of those
-    hospitalised for COVID-19 at 14 days.
-  - **income_ward_rate** or rate of population admission to the ward due
+    hospitalised for COVID-19 at 14 days.</p>
+  - <p align="justify"><strong>income_ward_rate</strong> or rate of population admission to the ward due
     to COVID-19. Calculated as the ratio of the proportion of new ward
     admissions due to COVID-19 to the total population per 100,000
-    inhabitants.
-  - **income_ICU_rate** or rate of population admission to ICU due to
+    inhabitants.</p>
+  - <p align="justify"><strong>income_ICU_rate</strong> or rate of population admission to ICU due to
     COVID-19. Calculated as the ratio of the proportion of new ICU
     admissions due to COVID-19 to the total population per 100,000
-    inhabitants.
-  - **disch_rate** or population rate of new discharges. Calculated as
+    inhabitants.</p>
+  - <p align="justify"><strong>disch_rate</strong> or population rate of new discharges. Calculated as
     the ratio of the number of new COVID-19 discharges to the total
-    population per 100,000 inhabitants.
-  - **disch_rate7** or population rate of new 7-day discharges.
+    population per 100,000 inhabitants.</p>
+  - <p align="justify"><strong>disch_rate7</strong> or population rate of new 7-day discharges.
     Calculated as the ratio of the number of new 7-day COVID-19
-    discharges to the total population per 100,000 inhabitants.
-  - **disch_rate14** or population rate of new discharges at 14 days.
+    discharges to the total population per 100,000 inhabitants.</p>
+  - <p align="justify"><strong>disch_rate14</strong> or population rate of new discharges at 14 days.
     Calculated as the ratio of the number of new 14-day COVID-19
-    discharges to the total population per 100,000 inhabitants.
-  - **death_rate** or population rate of deaths due to COVID-19.
+    discharges to the total population per 100,000 inhabitants.</p>
+  - <p align="justify"><strong>death_rate</strong> or population rate of deaths due to COVID-19.
     Calculated as the ratio of the number of COVID-19 deaths to the
-    total population per 1,000,000 inhabitants.
-  - **death_rate7** or population rate of deaths due to 7-day COVID-19.
+    total population per 1,000,000 inhabitants.</p>
+  - <p align="justify"><strong>death_rate7</strong> or population rate of deaths due to 7-day COVID-19.
     Calculated as the ratio of the number of 7-day COVID-19 deaths to
-    the total population per 1,000,000 inhabitants.
-  - **death_rate14** or population rate of deaths due to 14-day
+    the total population per 1,000,000 inhabitants.</p>
+  - <p align="justify"><strong>death_rate14</strong> or population rate of deaths due to 14-day
     COVID-19. Calculated as the ratio of the number of deaths from
-    14-day COVID-19 to the total population per 1,000,000 inhabitants.
-  - **death_rate_covid_total** or rate of COVID-19 deaths in relation to
+    14-day COVID-19 to the total population per 1,000,000 inhabitants.</p>
+  - <p align="justify"><strong>death_rate_covid_total</strong> or rate of COVID-19 deaths in relation to
     the total number of deaths. Calculated as the ratio of the number of
-    COVID-19 deaths to the overall number of deaths.
-  - **death_rate_covid_total7** or rate of COVID-19 deaths in relation
+    COVID-19 deaths to the overall number of deaths.</p>
+  - <p align="justify"><strong>death_rate_covid_total7</strong> or rate of COVID-19 deaths in relation
     to the total number of deaths at 7 days. Calculated as the ratio of
     the number of COVID-19 deaths to the overall number of deaths at 7
-    days.
-  - **death_rate_covid_total14** or rate of deaths due to COVID-19 in
+    days.</p>
+  - <p align="justify"><strong>death_rate_covid_total14</strong> or rate of deaths due to COVID-19 in
     relation to the total number of deaths at 14 days. Calculated as the
     ratio of the number of COVID-19 deaths to the overall number of
-    deaths at 14 days.
-- Finally, we lagged each variable. In this way we take into account the
+    deaths at 14 days.</p>
+- <p align="justify">Finally, we lagged each variable. In this way we take into account the
   time lag caused by delays in reporting and the inherent nature of the
   disease itself. Specifically, for variables calculated at 7 days, lags
   of 1 to 20 days are included, for variables calculated at 14 days,
   lags of 1 to 14 days are included, and for the rest of the variables,
-  lags of 1 to 26 days are included.
+  lags of 1 to 26 days are included.</p>
 
-All variables and their lags, together with the date, H.A., population
+<p align="justify">All variables and their lags, together with the date, H.A., population
 size and province identifier are stored in the csv file
-**COVID_SEVERITY_INDICATORS_LAGS**, stored in the folder
-**EPIDEMIOLOGICAL INDICATORS**, the header of which is shown below.
-
-</div>
+<strong>COVID_SEVERITY_INDICATORS_LAGS</strong>, stored in the folder
+<strong>EPIDEMIOLOGICAL INDICATORS</strong>, the header of which is shown below.</p>
 
 ``` r
 # Load the data.table library
