@@ -188,6 +188,7 @@ Alpha (B.1.1.7), Delta (B.1.617.2) and Omicron (B.1.1.529).</p>
 
 > [!NOTE]
 > <p align="justify"> The target variable of the model is the count of people hospitalised with COVID-19 in ICU.
+>
 > The data file referenced in this section is located in the <strong>ICU</strong> folder, and corresponds to:
  >  
  > - <strong>ICU.csv</strong>: File containing the number of people with suspected COVID-19 admitted to ICU by H.A. and day.
@@ -277,7 +278,8 @@ head(data)
 
 <p align="justify"> Since the target variable is occupancy in ICU due to COVID-19, we looked
 at factors that could influence it, classifying them into two large
-blocks: <strong>sociodemographic factors</strong> and <strong>epidemiological factors</strong></p>.
+blocks: <strong>sociodemographic factors</strong> and <strong>epidemiological factors</strong>.</p>.
+
 [Figure 3](#figure3) shows schematically.
 
 <p align="center">
@@ -290,12 +292,10 @@ blocks: <strong>sociodemographic factors</strong> and <strong>epidemiological fa
 
 ## 3.1 Sociodemographic indicators
 
-<div style="text-align: justify;">
 
-We proceeded to characterise the H.A. on the basis of sociodemographic
+<p align="justify"> We proceeded to characterise the H.A. on the basis of sociodemographic
 factors such as population, population density and the ratio of nursing
-home places per 100 inhabitants over 65 years of age.
-</div>
+home places per 100 inhabitants over 65 years of age</p>.
 
 > [!NOTE]
 > The data files referenced in this section are located in the **SOCIODEMOGRAPHIC INDICATORS** folder and correspond to:
@@ -315,15 +315,11 @@ home places per 100 inhabitants over 65 years of age.
 > - **sociodemographic_indicators.csv**: csv file constructed with all the sociodemographic indicators contemplated by H.A. (population, population density and rate of number of retirement home home places per 100 people over 65 years of age).
 
 
-</p>
-
 ### 3.1.1 Population
 
-<div style="text-align: justify;">
-
-In order to deepen the analysis, we aimed to obtain the total population
+<p align="justify"> In order to deepen the analysis, we aimed to obtain the total population
 for each H.A., but also the proportion of women, men, people under 16,
-between 16 and 64 and over 65 years.
+between 16 and 64 and over 65 years</p>.
 
 - Firstly, we extracted the information from the INE’s 2021 Population
   and Housing Census, and specifically, from the results of [“2021
@@ -353,11 +349,9 @@ between 16 and 64 and over 65 years.
 
 ### 3.1.2 Population density
 
-<div style="text-align: justify;">
-
-The population density for each H.A. is defined as the number of people
+<p align="justify"> The population density for each H.A. is defined as the number of people
 per km<sup>2</sup> of surface area. To obtain it, we carry out the
-following steps.
+following steps.</p>.
 
 - We consulted the Instituto Geográfico Nacional (IGN), specifically the
   [“Geographic Nomenclator of Municipalities and Population
@@ -369,17 +363,13 @@ following steps.
   surface area by H.A., and finally to calculate the population/surface
   area ratio to obtain the population density.
 
-</div>
-
 ### 3.1.3 Ratio of retirement home places
 
-<div style="text-align: justify;">
-
-One of the keys to the COVID-19 pandemic was the severity with which it
+<p align="justify"> One of the keys to the COVID-19 pandemic was the severity with which it
 affected older people in general, and in particular retirement home care
 homes. It is estimated that there should be a minimum of 5 retirement
 home care places for every 100 inhabitants over the age of 65. To
-calculate this ratio, we need to find the number of places.
+calculate this ratio, we need to find the number of places.</p>.
 
 - First, we took the data from the Open Data portal [“Envejecimiento en
   Red”](https://envejecimientoenred.csic.es/datos-abiertos/residencias/),
@@ -387,16 +377,11 @@ calculate this ratio, we need to find the number of places.
 - Based on the Municipality-H.A. correlation, we aggregated the
   information and calculated the ratio of retirement home places by H.A.
 
-</div>
 
 ### 3.1.4 Assessment of sociodemographic indicators
 
-<div style="text-align: justify;">
-
-All variables are combined in the sociodemographic indicators file for
-each H.A.
-
-</div>
+<p align="justify"> All variables are combined in the sociodemographic indicators file for
+each H.A.</p>.
 
 ``` r
 # Load the data.table library and the knitr library
@@ -425,9 +410,8 @@ kable(data)
 | H.A. VALLADOLID OESTE |   253981 | 0.4852646 | 0.5147354 | 0.9490751 | 0.0509249 | 0.1439984 | 0.6303675 | 0.2256341 |          70.593441 |                9.063465 |
 | H.A. ZAMORA           |   168658 | 0.4954108 | 0.5045892 | 0.9619644 | 0.0380356 | 0.0996514 | 0.5895540 | 0.3107946 |          16.065885 |                8.207104 |
 
-<div style="text-align: justify;">
 
-The H.A. with the highest number of inhabitants in 2021 correspond to
+<p align="justify"> The H.A. with the highest number of inhabitants in 2021 correspond to
 H.A. Burgos and H.A. Salamanca, while the least populated are H.A. Soria
 and H.A. El Bierzo. If we look at the distribution of the population,
 the proportion of men and women is very similar, with H.A. Ávila, H.A.
@@ -447,13 +431,10 @@ Finally, with regard to the ratio of retirement home care home places
 per 100 people over 65 years of age, in all H.A. the minimum recommended
 5% is reached, with H.A. Soria standing out with the highest rate, and
 H.A. El Bierzo with the lowest, but always higher than the national
-average.
+average.</p>.
 
-</div>
 
 ## 3.2 Epidemiological indicators
-
-<div style="text-align: justify;">
 
 We proceed to characterise the H.A. based on epidemiological factors,
 following the guidelines indicated in the [Epidemic Surveillance
@@ -462,55 +443,22 @@ Health.](https://www.sanidad.gob.es/profesionales/saludPublica/ccayes/alertasAct
 In this way, we create indicator variables for disease transmissibility,
 disease severity and care pressure.
 
-</div>
 
-<p>
 
-<div style="border: 2px solid black; padding: 10px; background-color: #EAFCEA;text-align: justify;">
+> [!NOTE]
+> <p align="justify"> The data files referenced in this section are located in the <strong>EPIDEMIOLOGICAL INDICATORS</strong> folder and correspond to:</p>
+> 
+> - <strong>ORIGINAL SOURCES</strong>: Folder containing the original data files downloaded from each source web page referenced. Specifically:
+>   - <strong>cumulative_sick_rate_by_health_area.csv</strong>: Data file from the Open Data Portal of the Junta de Castilla y León that collects the [Sickness rate by basic health area and day](https://analisis.datosabiertos.jcyl.es/explore/dataset/tasa-enfermos-acumulados-por-areas-de-salud/information/?flg=es-es&disjunctive.zbs_geo&sort=fecha).
+>   - <strong>situation_of_hospitalised_coronavirus_patients_in_castilla_leon.csv</strong>: the Open Data Portal of the Junta de Castilla y León that collects the [Situation of hospitalised coronavirus patients in Castilla y León by days and hospitals.](https://analisis.datosabiertos.jcyl.es/explore/dataset/situacion-de-hospitalizados-por-coronavirus-en-castilla-y leon/information/?flg=es-es&sort=fecha)
+>   - <strong>hospital_bed_occupancy.csv</strong>: Data file from the Open Data Portal of the Junta de Castilla y León that collects the [occupancy of hospital beds per day and hospital.](https://analisis.datosabiertos.jcyl.es/explore/dataset/ocupacion-de-camas-en-hospitales/table/?flg=es-es&sort=fecha)
+>   - <strong>covid_mortality_rate_by_basic_health_areas.csv</strong>: Data file from the Open Data Portal of the Junta de Castilla y León that collects the [Covid mortality rate by basic health area and day.](https://analisis.datosabiertos.jcyl.es/explore/dataset/tasa-mortalidad-covid-por-zonas-basicas-de-salud/information/?sort=fecha)
+>   - <strong>mortality_rate_by_health_centre.csv</strong>: Data file from the Open Data Portal of the Junta de Castilla y León that collects the [Mortality rate by basic health areas and day.](https://analisis.datosabiertos.jcyl.es/explore/dataset/tasa-mortalidad-covid-por-zonas-basicas-de-salud/information/?sort=fecha)
+>   - <strong>people_vaccinated_covid.csv</strong>: Data file from the Open Data Portal of the Junta de Castilla y León that collects the [Persons vaccinated COVID-19 until 23-09-2022 by province and day](https://analisis.datosabiertos.jcyl.es/explore/dataset/personas-vacunadas-covid/table/?disjunctive.provincia&sort=fecha).
+> - <strong>COVID19_SPREAD_INDICATORS_LAGS.csv</strong>: csv file constructed with all epidemiological indicators on disease spread, specified by H.A. and day.
+> - <strong>COVID19_SEVERITY_INDICATORS_LAGS.csv</strong>: csv file constructed with all epidemiological indicators on the severity of the disease, specified by H.A. and day.
+> - <strong>COVID19_CARE_PRESSURE_INDICATORS_LAGS.csv</strong>: csv file constructed with all epidemiological indicators on COVID-19 care pressure, specified by H.A. and day.
 
-The data files referenced in this section are located in the
-**EPIDEMIOLOGICAL INDICATORS** folder and correspond to:
-
-- **ORIGINAL SOURCES**: Folder containing the original data files
-  downloaded from each source web page referenced. Specifically:
-  - **cumulative_sick_rate_by_health_area.csv**: Data file from the Open
-    Data Portal of the Junta de Castilla y León that collects the
-    [Sickness rate by basic health area and
-    day](https://analisis.datosabiertos.jcyl.es/explore/dataset/tasa-enfermos-acumulados-por-areas-de-salud/information/?flg=es-es&disjunctive.zbs_geo&sort=fecha).
-  - **situation_of_hospitalised_coronavirus_patients_in_castilla_leon.csv**:
-    the Open Data Portal of the Junta de Castilla y León that collects
-    the [Situation of hospitalised coronavirus patients in Castilla y
-    León by days and
-    hospitals.](https://analisis.datosabiertos.jcyl.es/explore/dataset/situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon/information/?flg=es-es&sort=fecha)
-  - **hospital_bed_occupancy.csv**: Data file from the Open Data Portal
-    of the Junta de Castilla y León that collects the [occupancy of
-    hospital beds per day and
-    hospital.](https://analisis.datosabiertos.jcyl.es/explore/dataset/ocupacion-de-camas-en-hospitales/table/?flg=es-es&sort=fecha)
-  - **covid_mortality_rate_by_basic_health_areas.csv**: Data file from
-    the Open Data Portal of the Junta de Castilla y León that collects
-    the [Covid mortality rate by basic health area and
-    day.](https://analisis.datosabiertos.jcyl.es/explore/dataset/tasa-mortalidad-covid-por-zonas-basicas-de-salud/information/?sort=fecha)
-  - **mortality_rate_by_health_centre.csv**: Data file from the Open
-    Data Portal of the Junta de Castilla y León that collects the
-    [Mortality rate by basic health areas and
-    day.](https://analisis.datosabiertos.jcyl.es/explore/dataset/tasa-mortalidad-covid-por-zonas-basicas-de-salud/information/?sort=fecha)
-  - **people_vaccinated_covid.csv**: Data file from the Open Data Portal
-    of the Junta de Castilla y León that collects the [Persons
-    vaccinated COVID-19 until 23-09-2022 by province and
-    day](https://analisis.datosabiertos.jcyl.es/explore/dataset/personas-vacunadas-covid/table/?disjunctive.provincia&sort=fecha).
-- **COVID19_SPREAD_INDICATORS_LAGS.csv**: csv file constructed with all
-  epidemiological indicators on disease spread, specified by H.A. and
-  day.
-- **COVID19_SEVERITY_INDICATORS_LAGS.csv**: csv file constructed with
-  all epidemiological indicators on the severity of the disease,
-  specified by H.A. and day.
-- **COVID19_CARE_PRESSURE_INDICATORS_LAGS.csv**: csv file constructed
-  with all epidemiological indicators on COVID-19 care pressure,
-  specified by H.A. and day.
-
-</div>
-
-</p>
 
 ### 3.2.1 Disease spread
 
