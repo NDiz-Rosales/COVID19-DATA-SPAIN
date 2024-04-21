@@ -81,6 +81,12 @@ COVID-19 patients</strong> by health area and day in Castilla y León.</p>
 
 The domains or spatial areas of interest correspond to the Health Areas (H.A.) of Castilla y León, an Autonomous Community in Spain, located, as can be seen in [Figure 1](#figure1), in the north-western fringe of the Peninsula.
 
+
+<p align="justify">The domains or spatial areas of interest correspond to the Health Areas (H.A.) of Castilla y León, an Autonomous Community in Spain, located, as can be seen in <a href="#figure1">Figure 1</a>, in the north-western fringe of the Peninsula.</p>
+
+
+
+
 <p align="center">
   <a id="figure1"></a>
   <img alt="Geographical location of Castilla y León" src="./README_COVID_files/mapSpainCL.png">
