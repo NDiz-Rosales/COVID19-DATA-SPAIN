@@ -193,11 +193,11 @@ Alpha (B.1.1.7), Delta (B.1.617.2) and Omicron (B.1.1.529).</p>
  > - <strong>ICU.csv</strong>: File containing the number of people with suspected COVID-19 admitted to ICU by H.A. and day.
 </p>
 
-<p align="justify"> 
 
-For its construction, we carry out the following steps:
 
-- We consulted the Open Data portal of the Junta de Castilla y León. We
+<p align="justify"> For its construction, we carry out the following steps:</p>
+
+- <p align="justify"> We consulted the Open Data portal of the Junta de Castilla y León. We
   downloaded the database [“Situation of hospitalised patients with
   Coronavirus in Castilla y
   León”](https://analisis.datosabiertos.jcyl.es/explore/dataset/situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon/information/?flg=es-es&sort=fecha).
@@ -209,7 +209,7 @@ For its construction, we carry out the following steps:
   disease. In addition, they specify that those hospitalised in ICU
   include: ICU, REA (resuscitation units), URPA (post-anaesthesia
   resuscitation units) and other units with adequate staffing for
-  critical patients.
+  critical patients.</p>
 
 - We carried out a search for the H.A. to which each hospital belongs,
   using the [IdeCyL
