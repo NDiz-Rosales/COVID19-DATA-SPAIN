@@ -320,31 +320,28 @@ home places per 100 inhabitants over 65 years of age.</p>
 for each H.A., but also the proportion of women, men, people under 16,
 between 16 and 64 and over 65 years</p>.
 
-- Firstly, we extracted the information from the INE’s 2021 Population
-  and Housing Census, and specifically, from the results of [“2021
+- <p align="justify">Firstly, we extracted the information from the INE’s 2021 Population
+  and Housing Census, and specifically, from the results of <a href="https://ine.es/jaxiT3/Tabla.htm?t=33571&L=0">“2021
   Population by sex, municipalities, nationality (Spanish/foreign) and
-  age (large groups)”](https://ine.es/jaxiT3/Tabla.htm?t=33571&L=0). We
-  chose 2021, since our range of interest is between 2020 and 2022, and
+  age (large groups)”</a>. We chose 2021, since our range of interest is between 2020 and 2022, and
   the population figures are known in January of the year after the
   current one. It is therefore the most consistent year, of those then
   available, to take into consideration the population effect of
-  COVID-19 in 2020.
-- We then define the following variables:
-  - **POP_2021**: Total number of inhabitants per H.A.
-  - **sex0**: Base 1 proportion of the number of men.
-  - **sex1**: Base 1 proportion of the number of women.
-  - **cit0**: Base 1 proportion of the number of persons with Spanish
+  COVID-19 in 2020.</p>
+- <p align="justify">We then define the following variables:</p>
+  - <strong>POP_2021</strong>: Total number of inhabitants per H.A.
+  - <strong>sex0</strong>: Base 1 proportion of the number of men.
+  - <strong>sex1</strong>: Base 1 proportion of the number of women.
+  - <strong>cit0</strong>: Base 1 proportion of the number of persons with Spanish
     nationality or dual nationality (one of them Spanish).
-  - **cit1**: Base 1 proportion of the number of persons without Spanish
+  - <strong>cit1</strong>: Base 1 proportion of the number of persons without Spanish
     nationality.
-  - **age0**: Base 1 proportion of persons under 16 years of age.
-  - **age1**: Base 1 proportion of persons aged between 16 and 64 years
+  - <strong>age0</strong>: Base 1 proportion of persons under 16 years of age.
+  - <strong>age1</strong>: Base 1 proportion of persons aged between 16 and 64 years
     of age.
-  - **age2**: Base 1 proportion of persons aged over 64 years.
-- Finally, to obtain the values of the variables, we aggregate, for each
-  H.A., the information collected by the INE at the municipality level.
-
-</div>
+  - <strong>age2</strong>: Base 1 proportion of persons aged over 64 years.
+- <p align="justify">Finally, to obtain the values of the variables, we aggregate, for each
+  H.A., the information collected by the INE at the municipality level.</p>
 
 ### 3.1.2 Population density
 
