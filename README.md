@@ -6,6 +6,11 @@ true
 
 ------------------------------------------------------------------------
 
+<style>
+.justify-text {
+  text-align: justify;
+}
+</style>
 
 # Structure
 
@@ -379,34 +384,13 @@ at factors that could influence it, classifying them into two large
 blocks: **sociodemographic factors** and **epidemiological factors**, as
 shown in the diagram.
 
-```r
-library(DiagrammeR)
+</div>
 
-# Definir el grafo en lenguaje DOT con enlaces a secciones de RMarkdown
-graph <- "
-digraph {
-  node [style=filled, fontcolor=black]
+<div style="margin-top: -300px; margin-bottom: -300px;">
 
-  ICU [fillcolor=\"#ADD8E6\", fontcolor=black, URL='README_COVID.html#S2']
-  \"Sociodemographic indicators\" [fillcolor=\"#90EE90\", fontcolor=black, URL='README_COVID.html#S31']
-  \"Epidemiological indicators\" [fillcolor=\"#90EE90\", fontcolor=black, URL='README_COVID.html#S32']
-  Population [fillcolor=\"#FFFF99\", fontcolor=black, URL='README_COVID.html#S311']
-  \"Population density\" [fillcolor=\"#FFFF99\", fontcolor=black, URL='README_COVID.html#S312']
-  \"Ratio of retirement home places\" [fillcolor=\"#FFFF99\", fontcolor=black, URL='README_COVID.html#S313']
-  \"Disease spread\" [fillcolor=\"#FFFF99\", fontcolor=black, URL='README_COVID.html#S321']
-  \"Disease severity\" [fillcolor=\"#FFFF99\", fontcolor=black, URL='README_COVID.html#S322']
-  \"Care pressure\" [fillcolor=\"#FFFF99\", fontcolor=black, URL='README_COVID.html#S323']
+![](README_COVID_files/figure-gfm/unnamed-chunk-3-1.png)<!-- -->
 
-  ICU -> {\"Sociodemographic indicators\" \"Epidemiological indicators\"}
-  \"Sociodemographic indicators\" -> {Population \"Population density\" \"Ratio of retirement home places\"}
-  \"Epidemiological indicators\" -> {\"Disease spread\" \"Disease severity\" \"Care pressure\"}
-}
-"
-
-# Renderizar el gráfico
-grViz(graph, 
-      engine = "dot", 
-      options = list(layout = "neato", center = TRUE))
+</div>
 
 ## 3.1 Sociodemographic indicators
 
