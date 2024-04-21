@@ -588,15 +588,18 @@ with the following steps.</p>
   there is also missing information for Sunday 22/08/2021. To perform
   the imputation of these five missing values, we rely on the data
   available for these dates at:</p>
+  
   - <p align="justify"><a href="https://analisis.datosabiertos.jcyl.es/explore/dataset/indicadores-de-riesgo-covid-19-por-provincias/table/?disjunctive.indicador&sort=fecha">COVID-19 risk indicators by provinces up to
     24-03-22</a>.</p>
   - <p align="justify"><a href="https://analisis.datosabiertos.jcyl.es/explore/dataset/indicadores-de-riesgo-covid-19-por-municipios/table/?disjunctive.provincia&sort=fecha">COVID-19 risk indicators by municipalities until
     24-03-2022</a>.</p>
+    
 - <p align="justify">We aggregate the information of the variables by H.A.</p>
 - <p align="justify">We defined the indicators explained in the <a href="https://www.sanidad.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/documentos/Nueva_estrategia_vigilancia_y_control.pdf">Epidemic Surveillance
   Strategies of the Ministry of
   Health</a>,
   which include the following:</p>
+  
   - <p align="justify"><strong>ward_rate</strong> or population occupancy rate to the ward. Calculated
     as the percentage ratio of the proportion of people with COVID-19 in
     ward beds to the total population per 100,000 inhabitants.</p>
@@ -659,6 +662,7 @@ with the following steps.</p>
     relation to the total number of deaths at 14 days. Calculated as the
     ratio of the number of COVID-19 deaths to the overall number of
     deaths at 14 days.</p>
+    
 - <p align="justify">Finally, we lagged each variable. In this way we take into account the
   time lag caused by delays in reporting and the inherent nature of the
   disease itself. Specifically, for variables calculated at 7 days, lags
