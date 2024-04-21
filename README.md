@@ -33,7 +33,7 @@ in Spain[^1]
 ## What to find in this repository?
 
 > [!NOTE]
-> This repository includes highly detailed datasets on transmission variables, severity and healthcare pressure caused by COVID-19. Specifically, data have been collected and processed for the health areas of Castilla y León with observations between 02/11/2020 and 06/03/2022. If any user has any doubts or curiosity, please contact the first author. </p>
+> This repository includes highly detailed datasets on transmission, severity and healthcare pressure variables caused by COVID-19. Specifically, data have been collected and processed for the health areas of Castilla y León with observations between 02/11/2020 and 06/03/2022. If any user has any doubts or curiosity, please contact the first author. </p>
 
 ## Hardware and Software
 
