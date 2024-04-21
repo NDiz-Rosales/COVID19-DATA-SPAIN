@@ -208,12 +208,11 @@ Alpha (B.1.1.7), Delta (B.1.617.2) and Omicron (B.1.1.529).</p>
   critical patients.</p>
 
 - <p align="justify">We carried out a search for the H.A. to which each hospital belongs,
-  using the [IdeCyL
-  viewer](https://idecyl.jcyl.es/vcig/?service=https://idecyl.jcyl.es/geoserver/hh/wms&layer=salud_cyl_zonas_basicas_v&type=wms&style=hh%3Asalud_cyl_zonas_basicas_oscuro&bbox=160000,4440000,605000,4790000&srs=EPSG:25830),
-  the [Health centre
-  finder](https://buscadorcentros.saludcastillayleon.es/BUCE/) and the
-  [Castilla y León Health Planning
-  Guide](https://www.saludcastillayleon.es/institucion/es/organizacion/ordenacion-sistema-sanitario/guia-ordenacion-sanitaria-castilla-leon).
+  using the <a href="https://idecyl.jcyl.es/vcig/?service=https://idecyl.jcyl.es/geoserver/hh/wms&layer=salud_cyl_zonas_basicas_v&type=wms&style=hh%3Asalud_cyl_zonas_basicas_oscuro&bbox=160000,4440000,605000,4790000&srs=EPSG:25830">IdeCyL
+  viewer</a>,
+  the <a href="https://buscadorcentros.saludcastillayleon.es/BUCE/">Health centre
+  finder</a> and the <a href="https://www.saludcastillayleon.es/institucion/es/organizacion/ordenacion-sistema-sanitario/guia-ordenacion-sanitaria-castilla-leon">Castilla y León Health Planning
+  Guide</a>.
   The correspondence is as follows:</p>
 
   - <p align="justify">H.A. El Bierzo: Hospital El Bierzo.</p>
