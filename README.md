@@ -402,11 +402,8 @@ home places per 100 inhabitants over 65 years of age.
 </div>
 
 > [!NOTE]
-> Highlights information that users should take into account, even when skimming.
-
-The data files referenced in this section are located in the **SOCIODEMOGRAPHIC INDICATORS** folder and correspond to:
-  
-  - **ORIGINAL SOURCES**: Folder containing the original data files
+> The data files referenced in this section are located in the **SOCIODEMOGRAPHIC INDICATORS** folder and correspond to:
+>   - **ORIGINAL SOURCES**: Folder containing the original data files
     downloaded from each source web page referenced. Specifically:
     - **population_municipalities.csv**: Data file of the Instituto
       Nacional de Estadística (INE) corresponding to 2021 Population and
