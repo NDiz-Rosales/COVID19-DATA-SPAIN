@@ -75,9 +75,9 @@ COVID-19 patients</strong> by health area and day in Castilla y León.</p>
 > [!NOTE]
 > <p align="justify">The data files and images referenced in this section are located in the <strong>HEALTH AREAS</strong> folder, and correspond to:</p>
 > 
-> - <p align="justify"><strong>municipality_health_areas.csv</strong>: file corresponding to the equivalences between municipalities and health areas or H.A.
-> - <strong>mapSpainCL.png</strong>: image represented in <a href="#figure1">Figure 1</a>.
-> - <strong>mapCastillaLeon.png</strong>: image represented in <a href="#figure2">Figure 2</a>
+> - <p align="justify"><strong>municipality_health_areas.csv</strong>: file corresponding to the equivalences between municipalities and health areas or H.A.</p>
+> - <p align="justify"><strong>mapSpainCL.png</strong>: image represented in <a href="#figure1">Figure 1</a>.</p>
+> - <p align="justify"><strong>mapCastillaLeon.png</strong>: image represented in <a href="#figure2">Figure 2</a>.</p>
 
 <p align="justify">The domains or spatial areas of interest correspond to the Health Areas (H.A.) of Castilla y León, an Autonomous Community in Spain, located, as can be seen in <a href="#figure1">Figure 1</a>, in the north-western fringe of the Peninsula.</p>
 
@@ -111,15 +111,15 @@ folder and whose header is illustrated below. Specifically, there are
 2248 rows and 7 columns.This corresponds to the 2248 municipalities in
 Castilla y León and the following variables:</p>
 
-- **ID_HA**: Official H.A. identifier code.
-- **HA**: Name of the H.A.
-- **Municipality**: Name of the municipality
-- **ID_INE**: Official code of the municipality in the INE (Instituto
-  Nacional de Estadística).
-- **ID_Municipality**: Municipality identifier in the file.
-- **Province**: Province in which the municipality is located.
-- **ID_province**: Official code of the province that appears in the
-  INE.
+- <p align="justify"><strong>ID_HA</strong>: Official H.A. identifier code.</p>
+- <p align="justify"><strong>HA</strong>: Name of the H.A.</p>
+- <p align="justify"><strong>Municipality</strong>: Name of the municipality.</p>
+- <p align="justify"><strong>ID_INE</strong>: Official code of the municipality in the INE (Instituto
+  Nacional de Estadística).</p>
+- <p align="justify"><strong>ID_Municipality</strong>: Municipality identifier in the file.</p>
+- <p align="justify"><strong>Province</strong>: Province in which the municipality is located.</p>
+- <p align="justify"><strong>ID_province</strong>: Official code of the province that appears in the
+  INE.</p>
 
 ``` r
 # Load the data.table library
@@ -157,9 +157,7 @@ model. On the other hand, the remaining 307 days, from 3 May 2021 to 6
 March 2022, are used to assess the quality of the forward forecast with
 data that have not been used in the model fit.</p>
 
-According to the [Centro Nacional de Epidemiología
-(CNE)](https://www.isciii.es/QueHacemos/Servicios/VigilanciaSaludPublicaRENAVE/EnfermedadesTransmisibles/Documents/INFORMES/Informes%20COVID-19/INFORMES%20COVID-19%202022/Informe%20n%C2%BA%20154%20Situaci%C3%B3n%20actual%20de%20COVID-19%20en%20Espa%C3%B1a%20a%2011%20de%20noviembre%20de%202022.pdf),
-a total of five epidemic periods (EP) occurred during this time range.
+<p align="justify"> According to the <a href="https://www.isciii.es/QueHacemos/Servicios/VigilanciaSaludPublicaRENAVE/EnfermedadesTransmisibles/Documents/INFORMES/Informes%20COVID-19/INFORMES%20COVID-19%202022/Informe%20n%C2%BA%20154%20Situaci%C3%B3n%20actual%20de%20COVID-19%20en%20Espa%C3%B1a%20a%2011%20de%20noviembre%20de%202022.pdf">Centro Nacional de Epidemiología (CNE)</a>, a total of five epidemic periods (EP) occurred during this time range.</p>
 
 - **Second epidemic period (2nd EP)**: Between 22 June 2020 and 6
   December 2020, at which point the 14-day CI (Cumulative Incidence)
