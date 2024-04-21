@@ -101,10 +101,9 @@ COVID-19 patients</strong> by health area and day in Castilla y León.</p>
 <p align="justify">To define the correspondence between the H.A. and the municipalities they cover, we consulted:</p>
 
 - <p align="justify"> <a href="https://www.sanidad.gob.es/estadEstudios/estadisticas/docs/siap/Ordenacion_sanitaria_2021.pdf">Territorial Health Planning in the Autonomous Communities
-  2021</a></p>.
-- <p align="justify">[Castilla y León Health Planning
-  Guide](https://www.saludcastillayleon.es/institucion/es/organizacion/ordenacion-sistema-sanitario/guia-ordenacion-sanitaria-castilla-leon)</p>
-
+  2021</a>.</p>
+- <p align="justify"> <a href="https://www.saludcastillayleon.es/institucion/es/organizacion/ordenacion-sistema-sanitario/guia-ordenacion-sanitaria-castilla-leon">Castilla y León Health Planning
+  Guide</a>.</p>
 
 <p align="justify"> As a result, we obtain the file <strong>municipality_health_areas.csv</strong> with
 the H.A-municipalities correspondence, attached in the <strong>HEALTH AREAS</strong>
