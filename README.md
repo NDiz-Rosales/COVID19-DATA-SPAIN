@@ -96,21 +96,19 @@ can be seen in [Figure 1](#figure1), in the north-western fringe of
 the Peninsula.
 
 <p align="center">
-  <img alt="Figure 1" src="./README_COVID_files/mapSpainCL.png" width="300">
+  <img alt="Figure 1" src="./README_COVID_files/mapSpainCL.png">
   <br>
     <em>Figure 1: Geographical location of Castilla y León.</em>
 </p>
 
-
-
-![Geographical location of Castilla y León](./README_COVID_files/mapSpainCL.png)
-Figure 1: Geographical location of Castilla y León.
-
 The spatial domains of interest correspond to its 11 H.A., as shown in
 [Figure 2](#figure2).
 
-![H.A. of Castilla y León](./README_COVID_files/mapCastillaLeon.png)
-Figure 2: H.A. of Castilla y León.
+<p align="center">
+  <img alt="Figure 2" src="./README_COVID_files/mapCastillaLeon.png">
+  <br>
+    <em>Figure 2: H.A. of Castilla y León.</em>
+</p>
 
 <div style="text-align: justify;">
 
