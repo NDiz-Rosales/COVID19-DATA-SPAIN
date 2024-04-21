@@ -349,17 +349,17 @@ between 16 and 64 and over 65 years.</p>
 
 <p align="justify"> The population density for each H.A. is defined as the number of people
 per km<sup>2</sup> of surface area. To obtain it, we carry out the
-following steps.</p>.
+following steps.</p>
 
-- We consulted the Instituto Geográfico Nacional (IGN), specifically the
-  [“Geographic Nomenclator of Municipalities and Population
-  Entities”](https://www.ign.es/web/rcc-nomenclator-nacional), which,
+- <p align="justify">We consulted the Instituto Geográfico Nacional (IGN), specifically the
+  <a href="https://www.ign.es/web/rcc-nomenclator-nacional">“Geographic Nomenclator of Municipalities and Population
+  Entities”</a>, which,
   based on the Register of Local Entities, the INE and the IGE’s own
   cartographic databases, provides, among other characteristics, the
-  surface area of each municipality in km<sup>2</sup>.
-- Once this information was downloaded, the next step was to add the
+  surface area of each municipality in km<sup>2</sup>.</p>
+- <p align="justify">Once this information was downloaded, the next step was to add the
   surface area by H.A., and finally to calculate the population/surface
-  area ratio to obtain the population density.
+  area ratio to obtain the population density.</p>
 
 ### 3.1.3 Ratio of retirement home places
 
