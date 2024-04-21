@@ -95,6 +95,14 @@ The domains or spatial areas of interest correspond to the Health Areas
 can be seen in [Figure 1](#figure1), in the north-western fringe of
 the Peninsula.
 
+<p align="center">
+  <img alt="Figure 1" src="./README_COVID_files/mapSpainCL.png" width="300">
+  <br>
+    <em>Figure 1: Geographical location of Castilla y León.</em>
+</p>
+
+
+
 ![Geographical location of Castilla y León](./README_COVID_files/mapSpainCL.png)
 Figure 1: Geographical location of Castilla y León.
 
