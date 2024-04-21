@@ -399,11 +399,11 @@ shown in the diagram.
 We proceeded to characterise the H.A. on the basis of sociodemographic
 factors such as population, population density and the ratio of nursing
 home places per 100 inhabitants over 65 years of age.
-
 </div>
-> [!NOTE]  
-> Highlights information that users should take into account, even when skimming.
+
 [!NOTE]
+**Highlights information that users should take into account, even when skimming.**
+
 The data files referenced in this section are located in the **SOCIODEMOGRAPHIC INDICATORS** folder and correspond to:
   
   - **ORIGINAL SOURCES**: Folder containing the original data files
