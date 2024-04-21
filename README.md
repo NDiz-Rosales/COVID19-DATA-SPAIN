@@ -168,7 +168,7 @@ head(data)
 
 <div style="text-align: justify;">
 <p align="center">
-  <img alt="figure1" src="./README_COVID_files/mapSpainCL.png">
+  <img alt="#figure1" src="./README_COVID_files/mapSpainCL.png">
   <br>
     <em>Figure 1: Geographical location of Castilla y León.</em>
 </p>
