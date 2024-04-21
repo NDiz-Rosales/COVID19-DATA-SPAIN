@@ -167,6 +167,12 @@ style="text-align: center;">
 Figure 2: H.A. of Castilla y León.
 </p>
 
+
+<div style="text-align:center;">
+    ![H.A. of Castilla y León]("./README_COVID_files/mapCastillaLeon.png")
+</div>
+
+
 </div>
 
 <div style="text-align: justify;">
