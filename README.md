@@ -230,23 +230,22 @@ Alpha (B.1.1.7), Delta (B.1.617.2) and Omicron (B.1.1.529).</p>
     Medina del Campo.</p>
   - <p align="justify">H.A. Zamora: Complejo Asistencial de Zamora.</p>
 
-- We checked the available time range to see if there are observations
-  for all the days between **02/11/2020 and 06/03/2022**. Thus, we find
+- <p align="justify"> We checked the available time range to see if there are observations
+  for all the days between <strong>02/11/2020 and 06/03/2022</strong>strong>. Thus, we find
   that data are missing for four dates, corresponding to the following
   days: Saturday 3 July 2021, Sunday 4 July 2021, Saturday 10 July 2021,
   and Sunday 11 July 2021. To perform the imputation of these four
   missing occupancy values, we rely on the data available for these
-  dates in:
+  dates in:</p>
+  - <p align="justify"> <a href="https://analisis.datosabiertos.jcyl.es/explore/dataset/indicadores-de-riesgo-covid-19-por-provincias/table/?disjunctive.indicador&sort=fecha">COVID-19 risk indicators by provinces up to
+    24-03-22</a>.</p>
+  - <p align="justify"> <a href="https://analisis.datosabiertos.jcyl.es/explore/dataset/indicadores-de-riesgo-covid-19-por-municipios/table/?disjunctive.provincia&sort=fecha">COVID-19 risk indicators by municipalities until
+    24-03-2022</a>.</p>
 
-  - [COVID-19 risk indicators by provinces up to
-    24-03-22](https://analisis.datosabiertos.jcyl.es/explore/dataset/indicadores-de-riesgo-covid-19-por-provincias/table/?disjunctive.indicador&sort=fecha)
-  - [COVID-19 risk indicators by municipalities until
-    24-03-2022](https://analisis.datosabiertos.jcyl.es/explore/dataset/indicadores-de-riesgo-covid-19-por-municipios/table/?disjunctive.provincia&sort=fecha)
-
-- Once the allocation of the H.A. of each hospital has been carried out
+- <p align="justify"> Once the allocation of the H.A. of each hospital has been carried out
   and with the target time range complete, the aggregation of those
   hospitalised in ICU is carried out, by H.A. and day, saved in the
-  **ICU** csv file, the header of which can be seen below.
+  <strong>ICU</strong> csv file, the header of which can be seen below.</p>
 
 
 ``` r
@@ -272,9 +271,9 @@ head(data)
 
 <p align="justify"> Since the target variable is occupancy in ICU due to COVID-19, we looked
 at factors that could influence it, classifying them into two large
-blocks: <strong>sociodemographic factors</strong> and <strong>epidemiological factors</strong>.</p>.
+blocks: <strong>sociodemographic factors</strong> and <strong>epidemiological factors</strong>.</p>
 
-[Figure 3](#figure3) shows schematically.
+<p align="justify"><a href="#figure3">Figure 3</a> shows schematically.</p>
 
 <p align="center">
   <a id="figure2"></a>
@@ -289,24 +288,23 @@ blocks: <strong>sociodemographic factors</strong> and <strong>epidemiological fa
 
 <p align="justify"> We proceeded to characterise the H.A. on the basis of sociodemographic
 factors such as population, population density and the ratio of nursing
-home places per 100 inhabitants over 65 years of age</p>.
-
+home places per 100 inhabitants over 65 years of age.</p>
 > [!NOTE]
-> The data files referenced in this section are located in the **SOCIODEMOGRAPHIC INDICATORS** folder and correspond to:
-> - **ORIGINAL SOURCES**: Folder containing the original data files downloaded from each source web page referenced. Specifically:
->   - - **population_municipalities.csv**: Data file of the Instituto Nacional de Estadística (INE) corresponding to 2021 Population and Housing Census, containing information on the [2021 Population by sex, municipalities, nationality (Spanish/foreign) and age (large groups)](https://ine.es/jaxiT3/Tabla.htm?t=33571&L=0).
->   - - **surface_municipalities.csv**: Data file of the Instituto Geográfico Nacional (IGN), specifically the [“Geographic Nomenclator of Municipalities and Population Entities”](https://www.ign.es/web/rcc-nomenclator-nacional.) showing the geographical surface of each territory.
->   - - **retirement home_places.csv**: Data files from the open data portal [“Envejecimiento en Red”](https://envejecimientoenred.csic.es/datos-abiertos/residencias/), detailing, for each province, the existing old people’s homes, as well as their number of places and municipal location.
->       - **retirement home_places_avila.csv**
->       - **retirement home_places_burgos.csv**
->       - **retirement home_places_leon.csv**
->       - **retirement home_places_palencia.csv**
->       - **retirement home_places_salamanca.csv**
->       - **retirement home_places_segovia.csv**
->       - **retirement home_places_soria.csv**
->       - **retirement home_places_valladolid.csv**
->       - **retirement home_places_zamora.csv**
-> - **sociodemographic_indicators.csv**: csv file constructed with all the sociodemographic indicators contemplated by H.A. (population, population density and rate of number of retirement home home places per 100 people over 65 years of age).
+> <p align="justify">The data files referenced in this section are located in the <strong>SOCIODEMOGRAPHIC INDICATORS</strong> folder and correspond to:</p>
+> - <p align="justify"><strong>ORIGINAL SOURCES</strong>: Folder containing the original data files downloaded from each source web page referenced. Specifically:</p>
+>   - - <p align="justify"><strong>population_municipalities.csv</strong>: Data file of the Instituto Nacional de Estadística (INE) corresponding to 2021 Population and Housing Census, containing information on the <a href="https://ine.es/jaxiT3/Tabla.htm?t=33571&L=0">2021 Population by sex, municipalities, nationality (Spanish/foreign) and age (large groups)</a>.</p>
+>   - - <p align="justify"><strong>surface_municipalities.csv</strong>: Data file of the Instituto Geográfico Nacional (IGN), specifically the <a href="https://www.ign.es/web/rcc-nomenclator-nacional.">“Geographic Nomenclator of Municipalities and Population Entities”</a> showing the geographical surface of each territory.</p>
+>   - - <p align="justify"><strong>retirement home_places.csv</strong>: Data files from the open data portal <a href="https://envejecimientoenred.csic.es/datos-abiertos/residencias/">“Envejecimiento en Red”</a>, detailing, for each province, the existing old people’s homes, as well as their number of places and municipal location.</p>
+>       - <p align="justify"><strong>retirement home_places_avila.csv</strong>.</p>
+>       - <p align="justify"><strong>retirement home_places_burgos.csv</strong>.</p>
+>       - <p align="justify"><strong>retirement home_places_leon.csv</strong>.</p>
+>       - <p align="justify"><strong>retirement home_places_palencia.csv</strong>.</p>
+>       - <p align="justify"><strong>retirement home_places_salamanca.csv</strong>.</p>
+>       - <p align="justify"><strong>retirement home_places_segovia.csv</strong>.</p>
+>       - <p align="justify"><strong>retirement home_places_soria.csv</strong>.</p>
+>       - <p align="justify"><strong>retirement home_places_valladolid.csv</strong>.</p>
+>       - <p align="justify"><strong>retirement home_places_zamora.csv</strong>.</p>
+> - <p align="justify"><strong>sociodemographic_indicators.csv</strong>: csv file constructed with all the sociodemographic indicators contemplated by H.A. (population, population density and rate of number of retirement home home places per 100 people over 65 years of age).</p>
 
 
 ### 3.1.1 Population
