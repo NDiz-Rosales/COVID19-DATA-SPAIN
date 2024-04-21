@@ -159,21 +159,21 @@ data that have not been used in the model fit.</p>
 
 <p align="justify"> According to the <a href="https://www.isciii.es/QueHacemos/Servicios/VigilanciaSaludPublicaRENAVE/EnfermedadesTransmisibles/Documents/INFORMES/Informes%20COVID-19/INFORMES%20COVID-19%202022/Informe%20n%C2%BA%20154%20Situaci%C3%B3n%20actual%20de%20COVID-19%20en%20Espa%C3%B1a%20a%2011%20de%20noviembre%20de%202022.pdf">Centro Nacional de Epidemiología (CNE)</a>, a total of five epidemic periods (EP) occurred during this time range.</p>
 
-- **Second epidemic period (2nd EP)**: Between 22 June 2020 and 6
+- <p align="justify"><strong>Second epidemic period (2nd EP)</strong>: Between 22 June 2020 and 6
   December 2020, at which point the 14-day CI (Cumulative Incidence)
-  tipping point of COVID-19 cases occurs, leading to the third period.
-- **Third epidemic period (3rd EP)**: Between 7 December 2020 and 14
+  tipping point of COVID-19 cases occurs, leading to the third period.</p>
+- <p align="justify"><strong>Third epidemic period (3rd EP)</strong>: Between 7 December 2020 and 14
   March 2021, when the 14-day CI tipping point of COVID-19 cases occurs,
-  leading to the fourth period.
-- **Fourth epidemic period (4th EP)**: Between 15 March 2021 and 19 June
+  leading to the fourth period.</p>
+- <p align="justify"><strong>Fourth epidemic period (4th EP)</strong>: Between 15 March 2021 and 19 June
   2021, when the 14-day CI turning point of COVID-19 cases occurs,
-  leading to the fifth period.
-- **Fifth epidemic period (5th EP)**: Between 20 June 2021 and 13
+  leading to the fifth period.</p>
+- <p align="justify"><strong>Fifth epidemic period (5th EP)</strong>: Between 20 June 2021 and 13
   October 2021, when the 14-day CI tipping point for COVID-19 cases
-  occurs, leading to the sixth period.
-- **Sixth epidemic period (6th EP)**: Between 14 October 2021 and 27
+  occurs, leading to the sixth period.</p>
+- <p align="justify"><strong>Sixth epidemic period (6th EP)</strong>: Between 14 October 2021 and 27
   March 2022, the last day before the implementation of a new
-  epidemiological surveillance strategy.
+  epidemiological surveillance strategy.</p>
 
 <p align="justify"> In the same vein, the 488 days under study allow to take into
 consideration the impact of three main SARS-CoV-2 variants, which were
@@ -184,22 +184,20 @@ Alpha (B.1.1.7), Delta (B.1.617.2) and Omicron (B.1.1.529).</p>
 # Section 2. Target variable: ICU
 
 > [!NOTE]
-> <p align="justify"> The target variable of the model is the count of people hospitalised with COVID-19 in ICU.
+> <p align="justify"> The target variable of the model is the count of people hospitalised with COVID-19 in ICU.</p>
 >
-> The data file referenced in this section is located in the <strong>ICU</strong> folder, and corresponds to:
+> <p align="justify">The data file referenced in this section is located in the <strong>ICU</strong> folder, and corresponds to:</p>
  >  
- > - <strong>ICU.csv</strong>: File containing the number of people with suspected COVID-19 admitted to ICU by H.A. and day.
-</p>
+ > - <p align="justify"><strong>ICU.csv</strong>: File containing the number of people with suspected COVID-19 admitted to ICU by H.A. and day.</p>
 
 
 
 <p align="justify"> For its construction, we carry out the following steps:</p>
 
-- We consulted the Open Data portal of the Junta de Castilla y León. We
-  downloaded the database [“Situation of hospitalised patients with
+- <p align="justify">We consulted the Open Data portal of the Junta de Castilla y León. We
+  downloaded the database <a href="https://analisis.datosabiertos.jcyl.es/explore/dataset/situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon/information/?flg=es-es&sort=fecha">“Situation of hospitalised patients with
   Coronavirus in Castilla y
-  León”](https://analisis.datosabiertos.jcyl.es/explore/dataset/situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon/information/?flg=es-es&sort=fecha).
-  In this database, we have records at **hospital level**, indicating,
+  León”</a>. In this database, we have records at <strong>hospital level</strong>, indicating,
   for a total of 15 hospitals in the Autonomous Community, the number of
   patients in ICU due to COVID-19. These patients, in accordance with
   the guidelines of the Ministry of Health, are counted both for having
@@ -207,31 +205,31 @@ Alpha (B.1.1.7), Delta (B.1.617.2) and Omicron (B.1.1.529).</p>
   disease. In addition, they specify that those hospitalised in ICU
   include: ICU, REA (resuscitation units), URPA (post-anaesthesia
   resuscitation units) and other units with adequate staffing for
-  critical patients.
+  critical patients.</p>
 
-- We carried out a search for the H.A. to which each hospital belongs,
+- <p align="justify">We carried out a search for the H.A. to which each hospital belongs,
   using the [IdeCyL
   viewer](https://idecyl.jcyl.es/vcig/?service=https://idecyl.jcyl.es/geoserver/hh/wms&layer=salud_cyl_zonas_basicas_v&type=wms&style=hh%3Asalud_cyl_zonas_basicas_oscuro&bbox=160000,4440000,605000,4790000&srs=EPSG:25830),
   the [Health centre
   finder](https://buscadorcentros.saludcastillayleon.es/BUCE/) and the
   [Castilla y León Health Planning
   Guide](https://www.saludcastillayleon.es/institucion/es/organizacion/ordenacion-sistema-sanitario/guia-ordenacion-sanitaria-castilla-leon).
-  The correspondence is as follows:
+  The correspondence is as follows:</p>
 
-  - H.A. El Bierzo: Hospital El Bierzo.
-  - H.A. León: Complejo Asistencial Universitario de León.
-  - H.A. Palencia: Complejo Asistencial Universitario de Palencia.
-  - H.A. Burgos: Hospital Santos Reyes; Complejo Asistencial
-    Universitario de Burgos; Hospital Santiago Apóstol.
-  - H.A. Soria: Complejo Asistencial de Soria.
-  - H.A. Segovia: Complejo Asistencial de Segovia.
-  - H.A. Ávila: Complejo Asistencial de Ávila.
-  - H.A. Salamanca: Complejo Asistencial Universitario de Salamanca.
-  - H.A. Valladolid Este: Hospital Cínico Universitario de Valladolid;
-    Edificio Rondilla.
-  - H.A. Valladolid Oeste: Hospital Universitario Río Hortega; Hospital
-    Medina del Campo.
-  - H.A. Zamora: Complejo Asistencial de Zamora.
+  - <p align="justify">H.A. El Bierzo: Hospital El Bierzo.</p>
+  - <p align="justify">H.A. León: Complejo Asistencial Universitario de León.</p>
+  - <p align="justify">H.A. Palencia: Complejo Asistencial Universitario de Palencia.</p>
+  - <p align="justify">H.A. Burgos: Hospital Santos Reyes; Complejo Asistencial
+    Universitario de Burgos; Hospital Santiago Apóstol.</p>
+  - <p align="justify">H.A. Soria: Complejo Asistencial de Soria.</p>
+  - <p align="justify">H.A. Segovia: Complejo Asistencial de Segovia.</p>
+  - <p align="justify">H.A. Ávila: Complejo Asistencial de Ávila.</p>
+  - <p align="justify">H.A. Salamanca: Complejo Asistencial Universitario de Salamanca.</p>
+  - <p align="justify">H.A. Valladolid Este: Hospital Cínico Universitario de Valladolid;
+    Edificio Rondilla.</p>
+  - <p align="justify">H.A. Valladolid Oeste: Hospital Universitario Río Hortega; Hospital
+    Medina del Campo.</p>
+  - <p align="justify">H.A. Zamora: Complejo Asistencial de Zamora.</p>
 
 - We checked the available time range to see if there are observations
   for all the days between **02/11/2020 and 06/03/2022**. Thus, we find
