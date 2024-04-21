@@ -6,11 +6,6 @@ true
 
 ------------------------------------------------------------------------
 
-<style>
-.justify-text {
-  text-align: justify;
-}
-</style>
 
 # Structure
 
