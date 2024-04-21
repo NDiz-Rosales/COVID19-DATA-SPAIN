@@ -299,16 +299,16 @@ home places per 100 inhabitants over 65 years of age.</p>
 > 
 > - <p align="justify"><strong>population_municipalities.csv</strong>: Data file of the Instituto Nacional de Estadística (INE) corresponding to 2021 Population and Housing Census, containing information on the <a href="https://ine.es/jaxiT3/Tabla.htm?t=33571&L=0">2021 Population by sex, municipalities, nationality (Spanish/foreign) and age (large groups)</a>.</p>
 > - <p align="justify"><strong>surface_municipalities.csv</strong>: Data file of the Instituto Geográfico Nacional (IGN), specifically the <a href="https://www.ign.es/web/rcc-nomenclator-nacional.">“Geographic Nomenclator of Municipalities and Population Entities”</a> showing the geographical surface of each territory.</p>
-> - <p align="justify"><strong>retirement home_places.csv</strong>: Data files from the open data portal <a href="https://envejecimientoenred.csic.es/datos-abiertos/residencias/">“Envejecimiento en Red”</a>, detailing, for each province, the existing old people’s homes, as well as their number of places and municipal location. 
-  > - retirement home_places_avila.csv
-  > - retirement home_places_burgos.csv
-  > - retirement home_places_leon.csv
-  > - retirement home_places_palencia.csv
-  > - retirement home_places_salamanca.csv
-  > - retirement home_places_segovia.csv
-  > - retirement home_places_soria.csv
-  > - retirement home_places_valladolid.csv
-  > - retirement home_places_zamora.csv</p>
+> - <p align="justify"><strong>retirement home_places.csv</strong>: Data files from the open data portal <a href="https://envejecimientoenred.csic.es/datos-abiertos/residencias/">“Envejecimiento en Red”</a>, detailing, for each province, the existing old people’s homes, as well as their number of places and municipal location. </p>
+  > - <p align="justify">retirement home_places_avila.csv</p>
+  > - <p align="justify">retirement home_places_burgos.csv</p>
+  > - <p align="justify">retirement home_places_leon.csv</p>
+  > - <p align="justify">retirement home_places_palencia.csv</p>
+  > - <p align="justify">retirement home_places_salamanca.csv</p>
+  > - <p align="justify">retirement home_places_segovia.csv</p>
+  > - <p align="justify">retirement home_places_soria.csv</p>
+  > - <p align="justify">retirement home_places_valladolid.csv</p>
+  > - <p align="justify">retirement home_places_zamora.csv</p>
 >   
 ><p align="justify"><strong>sociodemographic_indicators.csv</strong>: csv file constructed with all the sociodemographic indicators contemplated by H.A. (population, population density and rate of number of retirement home home places per 100 people over 65 years of age).</p>
 
