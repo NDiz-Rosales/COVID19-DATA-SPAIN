@@ -16,7 +16,7 @@ true
 
 - [What to find in this repository?](#what-to-find-in-this-repository?)
 - [Hardware and Software](#hardware-and-software)
-- [Section 1. Spatial and temporal domains](#S1)
+- [Section 1. Spatial and temporal domains](#section-1.-spatial-and-temporal-domains)
   - [1.1 Spatial domains](#S11)
   - [1.2 Temporal domains](#S12)
 - [Section 2. Target variable: ICU](#S2)
