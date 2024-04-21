@@ -717,120 +717,119 @@ head(data[,1:20])
 
 ### 3.2.3 Care pressure
 
-<div style="text-align: justify;">
-
-We consulted the Open Data Portal of the Junta de Castilla y León. We
-downloaded three databases. [Situation of hospitalised coronavirus
+<p align="justify">We consulted the Open Data Portal of the Junta de Castilla y León. We
+downloaded three databases. <a href="https://analisis.datosabiertos.jcyl.es/explore/dataset/situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon/information/?flg=es-es&sort=fecha">Situation of hospitalised coronavirus
 patients in Castilla y
-León](https://analisis.datosabiertos.jcyl.es/explore/dataset/situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon/information/?flg=es-es&sort=fecha),
-[Hospital bed
-occupancy](https://analisis.datosabiertos.jcyl.es/explore/dataset/ocupacion-de-camas-en-hospitales/table/?flg=es-es&sort=fecha),
-and [Persons vaccinated COVID-19 until
-23-09-2022](https://analisis.datosabiertos.jcyl.es/explore/dataset/personas-vacunadas-covid/table/?disjunctive.provincia&sort=fecha).
+León</a>,
+<a href="https://analisis.datosabiertos.jcyl.es/explore/dataset/ocupacion-de-camas-en-hospitales/table/?flg=es-es&sort=fecha">Hospital bed
+occupancy</a>,
+and <a href="https://analisis.datosabiertos.jcyl.es/explore/dataset/personas-vacunadas-covid/table/?disjunctive.provincia&sort=fecha">Persons vaccinated COVID-19 until
+23-09-2022</a>.</p>
 
-- [Situation of hospitalised coronavirus patients in Castilla y
-  León](https://analisis.datosabiertos.jcyl.es/explore/dataset/situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon/information/?flg=es-es&sort=fecha).
+  
+- <p align="justify"><a href="https://analisis.datosabiertos.jcyl.es/explore/dataset/situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon/information/?flg=es-es&sort=fecha">Situation of hospitalised coronavirus patients in Castilla y
+  León</a>.
   This database provides information at hospital level about the number
   of patients with COVID-19 or suspected COVID-19 on the ward and in
   ICU; the number of admissions for COVID-19 on the ward and in ICU; and
-  the number of new discharges.
+  the number of new discharges.</p>
 
-- [Hospital bed
-  occupancy](https://analisis.datosabiertos.jcyl.es/explore/dataset/ocupacion-de-camas-en-hospitales/table/?flg=es-es&sort=fecha).
+- <p align="justify"><a href="https://analisis.datosabiertos.jcyl.es/explore/dataset/ocupacion-de-camas-en-hospitales/table/?flg=es-es&sort=fecha">Hospital bed
+  occupancy</a>.
   This database provides information at hospital level about the number
-  of ward and ICU beds available on each date.
+  of ward and ICU beds available on each date.</p>
 
-- [Persons vaccinated COVID-19 until
-  23-09-2022](https://analisis.datosabiertos.jcyl.es/explore/dataset/personas-vacunadas-covid/table/?disjunctive.provincia&sort=fecha).
+- <p align="justify"><a href="https://analisis.datosabiertos.jcyl.es/explore/dataset/personas-vacunadas-covid/table/?disjunctive.provincia&sort=fecha">Persons vaccinated COVID-19 until
+  23-09-2022</a>.
   This database provides province-level information on the number of
   persons vaccinated with the first and third dose and fully vaccinated,
   counted as the number of doses administered each day. The dataset
   specifies that from 01/04/2022 with third dose refers to all booster
   doses, not just the third dose. To construct the epidemiological
-  indicators of care pressure, the following steps were taken.
+  indicators of care pressure, the following steps were taken.</p>
 
-- For hospital-level databases, we performed the hospital-H.A.
-  assignment specified in the [Section 2. Target variable: ICU](#S2),
+- <p align="justify">For hospital-level databases, we performed the hospital-H.A.
+  assignment specified in the <a href="#section-2-target-variable-icu">Section 2. Target variable: ICU</a>,
   and for mortality databases, we performed the Basic Health Area-H.A.
-  assignment with the information provided by the database itself.
+  assignment with the information provided by the database itself.</p>
 
-- We checked the availability of data in the target time range between
+- <p align="justify">We checked the availability of data in the target time range between
   02/11/2020 and 06/03/2022. In the hospital-level datasets, we found
   that data are missing for four dates, corresponding to the following
   days: Saturday 3 July 2021, Sunday 4 July 2021, Saturday 10 July 2021
   and Sunday 11 July 2021. In addition, in the available bed dataset,
   there is also missing information for Sunday 22/08/2021. To perform
   the imputation of these five missing values, we rely on the data
-  available for these dates at:
+  available for these dates at:</p>
 
-  - [COVID-19 risk indicators by provinces up to
-    24-03-22.](https://analisis.datosabiertos.jcyl.es/explore/dataset/indicadores-de-riesgo-covid-19-por-provincias/table/?disjunctive.indicador&sort=fecha)
-  - [COVID-19 risk indicators by municipalities until
-    24-03-2022.](https://analisis.datosabiertos.jcyl.es/explore/dataset/indicadores-de-riesgo-covid-19-por-municipios/table/?disjunctive.provincia&sort=fecha)
+  - <p align="justify"><a href="https://analisis.datosabiertos.jcyl.es/explore/dataset/indicadores-de-riesgo-covid-19-por-provincias/table/?disjunctive.indicador&sort=fecha">COVID-19 risk indicators by provinces up to
+    24-03-22</a>.</p>
+  - <p align="justify"><a href="https://analisis.datosabiertos.jcyl.es/explore/dataset/indicadores-de-riesgo-covid-19-por-municipios/table/?disjunctive.provincia&sort=fecha">COVID-19 risk indicators by municipalities until
+    24-03-2022</a>.</p>
 
-- We aggregate the information for the variables by H.A. and by province
+- <p align="justify">We aggregate the information for the variables by H.A. and by province
   in the case of the vaccines data. In addition, in the case of the
   vaccination dataset, for each date we also calculate the cumulative
   number of vaccines administered, in order to take into account the
-  coverage of the population.
+  coverage of the population.</p>
 
-- We defined the indicators explained in the [Epidemic Surveillance
+- <p align="justify">We defined the indicators explained in the <a href="https://www.sanidad.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/documentos/Nueva_estrategia_vigilancia_y_control.pdf">Epidemic Surveillance
   Strategies of the Ministry of
-  Health](https://www.sanidad.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/documentos/Nueva_estrategia_vigilancia_y_control.pdf),
-  which include the following:
+  Health</a>,
+  which include the following:</p>
 
-  - **ward_beds_rate** or hospital occupancy rate on the ward. It is
+  - <p align="justify"><strong>ward_beds_rate</strong> or hospital occupancy rate on the ward. It is
     calculated as the percentage ratio of persons with COVID-19 or
     suspected COVID-19 hospitalised on the ward to the total number of
-    beds available on the ward at that time.
-  - **ICU_beds_rate** or ICU hospital occupancy rate calculated as the
+    beds available on the ward at that time.</p>
+  - <p align="justify"><strong>ICU_beds_rate</strong> or ICU hospital occupancy rate calculated as the
     percentage ratio of persons with COVID-19 or suspected COVID-19
     hospitalised in the ICU to the total number of ICU beds available at
-    that time.
-  - **inc_ward_rate7** or rate of new 7-day ward admissions per 100,000
-    inhabitants.
-  - **inc_ward_rate14** or rate of new 14-day ward admissions per
-    100,000 inhabitants.
-  - **inc_ICU_rate7** or rate of new 7-day ICU admissions per 100,000
-    inhabitants.
-  - **inc_ICU_rate14** or rate of new 14-day ICU admissions per 100,000
-    inhabitants.
-  - **vacc_complete_ratio** or daily rate of fully vaccinated people.
+    that time.</p>
+  - <p align="justify"><strong>inc_ward_rate7</strong> or rate of new 7-day ward admissions per 100,000
+    inhabitants.</p>
+  - <p align="justify"><strong>inc_ward_rate14</strong> or rate of new 14-day ward admissions per
+    100,000 inhabitants.</p>
+  - <p align="justify"><strong>inc_ICU_rate7</strong> or rate of new 7-day ICU admissions per 100,000
+    inhabitants.</p>
+  - <p align="justify"><strong>inc_ICU_rate14</strong> or rate of new 14-day ICU admissions per 100,000
+    inhabitants.</p>
+  - <p align="justify"><strong>vacc_complete_ratio</strong> or daily rate of fully vaccinated people.
     Calculated as the ratio of the number of fully vaccinated
-    inhabitants in a day to the total provincial population.
-  - **vacc_complete_ratio_cum** or cumulative rate of fully vaccinated
+    inhabitants in a day to the total provincial population.</p>
+  - <p align="justify"><strong>vacc_complete_ratio_cum</strong> or cumulative rate of fully vaccinated
     people. Calculated as the ratio of the number of fully vaccinated
-    inhabitants to date to the total provincial population.
-  - **vacc_1st_dose_ratio** or daily rate of persons with one dose of
+    inhabitants to date to the total provincial population.</p>
+  - <p align="justify"><strong>vacc_1st_dose_ratio</strong> or daily rate of persons with one dose of
     vaccine. Calculated as the ratio of the number of persons with a
     dose of vaccine on a given day divided by the total provincial
-    population.
-  - **vacc_1st_dose_ratio_cum** or cumulative rate of persons with a
+    population.</p>
+  - <p align="justify"><strong>vacc_1st_dose_ratio_cum</strong> or cumulative rate of persons with a
     dose of vaccine. Calculated as the ratio of the number of persons
     with a dose of vaccine to date divided by the total provincial
-    population.
-  - **vacc_3rd_dose_ratio** or daily rate of persons with the third dose
+    population.</p>
+  - <p align="justify"><strong>vacc_3rd_dose_ratio</strong> or daily rate of persons with the third dose
     of vaccine. Calculated as the ratio of the number of persons with
     the third dose of vaccine on a given day to the total provincial
-    population.
-  - **vacc_3rd_dose_ratio_cum** or cumulative rate of persons with the
+    population.</p>
+  - <p align="justify"><strong>vacc_3rd_dose_ratio_cum</strong> or cumulative rate of persons with the
     third dose of vaccine. Calculated as the ratio of the number of
     persons with the third dose of vaccine to date divided by the total
-    provincial population.
+    provincial population.</p>
 
-- Finally, we lagged each variable. In this way we take into account the
+- <p align="justify">Finally, we lagged each variable. In this way we take into account the
   time lag caused by delays in reporting and the inherent nature of the
   disease itself. Specifically, for variables calculated at 7 days, lags
   of 1 to 20 days are included, for variables calculated at 14 days,
   lags of 1 to 14 days are included, and for the rest of the variables,
-  lags of 1 to 26 days are included.
+  lags of 1 to 26 days are included.</p>
 
-All variables and their lags, together with the date, H.A., population
+<p align="justify">All variables and their lags, together with the date, H.A., population
 size and province identifier are stored in the csv file
-**COVID-CARE-PRESSURE-INDICATORS_LAGS**, stored in the folder
-**EPIDEMIOLOGICAL INDICATORS**, the header of which is shown below.
+<strong>COVID-CARE-PRESSURE-INDICATORS_LAGS</strong>, stored in the folder
+<strong>EPIDEMIOLOGICAL INDICATORS</strong>, the header of which is shown below.</p>
 
-</div>
+
 
 ``` r
 # Load the data.table library
@@ -881,40 +880,37 @@ head(data[,1:22])
 
 # Section 4. Definitive Dataset
 
-</div>
 
-<div style="text-align: justify;">
-
-This section contains the final dataset used in the article. As
+<p align="justify">This section contains the final dataset used in the article. As
 specified in the main of the paper, after a process of evaluation of the
 auxiliary information, its correlation with the target variable,
 epidemiological interpretability, performance in terms of cAIC and
 goodness of fit of the different models proposed, the variables were
-selected:
+selected:</p>
 
-- **acute_rate7**: Cases admitted to ICU among all COVID-19 inpatients
-  within 7 days.
-- **disch_rate14_LAG3**: COVID-19 discharges within 14 days with a
-  three-day lag among the total population.
-- **ward_rate_LAG2**: COVID-19 ward occupancy delayed by two days among
-  the total population.
-- **POP_2021**: Total population included as offset in the model.
+- <p align="justify"><strong>acute_rate7</strong>: Cases admitted to ICU among all COVID-19 inpatients
+  within 7 days.</p>
+- <p align="justify"><strong>disch_rate14_LAG3</strong>: COVID-19 discharges within 14 days with a
+  three-day lag among the total population.</p>
+- <p align="justify"><strong>ward_rate_LAG2</strong>: COVID-19 ward occupancy delayed by two days among
+  the total population.</p>
+- <p align="justify"><strong>POP_2021</strong>: Total population included as offset in the model.</p>
 
-In the dataset, the csv **COVID_DATASET**, in addition to these
-variables are included:
+<p align="justify">In the dataset, the csv <strong>COVID_DATASET</strong>, in addition to these
+variables are included:</p>
 
-- **date**: Date between 02/11/2020 and 06/03/2022.
-- **HA**: Name of the health area.
-- **ID_HA**: Health area identifier.
-- **province**: Name of the province.
-- **POP_2021**: Population total. Offset in the model.
-- **ICU**: Number of persons with COVID-19 in ICU. Target variable.
-- **acute_rate7**: Cases admitted to ICU among all COVID-19 inpatients
-  within 7 days. Auxiliary variable.
-- **disch_rate14_LAG3**: COVID-19 discharges within 14 days lagged three
-  days among the total population. Auxiliary variable.
-- **ward_rate_LAG2**: COVID-19 occupancy in ward lagged two days among
-  the total population. Auxiliary variable.
+- <p align="justify"><strong>date</strong>: Date between 02/11/2020 and 06/03/2022.</p>
+- <p align="justify"><strong>HA</strong>: Name of the health area.</p>
+- <p align="justify"><strong>ID_HA</strong>: Health area identifier.</p>
+- <p align="justify"><strong>province</strong>: Name of the province.</p>
+- <p align="justify"><strong>POP_2021</strong>: Population total. Offset in the model.</p>
+- <p align="justify"><strong>ICU</strong>: Number of persons with COVID-19 in ICU. Target variable.</p>
+- <p align="justify"><strong>acute_rate7</strong>: Cases admitted to ICU among all COVID-19 inpatients
+  within 7 days. Auxiliary variable.</p>
+- <p align="justify"><strong>disch_rate14_LAG3</strong>: COVID-19 discharges within 14 days lagged three
+  days among the total population. Auxiliary variable.</p>
+- <p align="justify"><strong>ward_rate_LAG2</strong>: COVID-19 occupancy in ward lagged two days among
+  the total population. Auxiliary variable.</p>
 
 ``` r
 # Load the data.table library
@@ -942,7 +938,6 @@ head(data)
     ## 5          32.56431       45.08905
     ## 6          32.56431       42.58410
 
-</div>
 
 [^1]: This research is part of the grant PID2020-113578RB-I00, funded by
     MCIN/AEI/10.13039/501100011033/. It has also been supported by the
