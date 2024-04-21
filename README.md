@@ -193,7 +193,7 @@ Alpha (B.1.1.7), Delta (B.1.617.2) and Omicron (B.1.1.529).</p>
  > - <strong>ICU.csv</strong>: File containing the number of people with suspected COVID-19 admitted to ICU by H.A. and day.
 </p>
 
-> <p align="justify"> For its construction, we carry out the following steps:
+<p align="justify"> For its construction, we carry out the following steps:
 
 - We consulted the Open Data portal of the Junta de Castilla y León. We
   downloaded the database [“Situation of hospitalised patients with
