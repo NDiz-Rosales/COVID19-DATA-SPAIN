@@ -197,7 +197,7 @@ Alpha (B.1.1.7), Delta (B.1.617.2) and Omicron (B.1.1.529).</p>
 
 <p align="justify"> For its construction, we carry out the following steps:</p>
 
-- <p align="justify"> We consulted the Open Data portal of the Junta de Castilla y León. We
+- We consulted the Open Data portal of the Junta de Castilla y León. We
   downloaded the database [“Situation of hospitalised patients with
   Coronavirus in Castilla y
   León”](https://analisis.datosabiertos.jcyl.es/explore/dataset/situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon/information/?flg=es-es&sort=fecha).
@@ -209,7 +209,7 @@ Alpha (B.1.1.7), Delta (B.1.617.2) and Omicron (B.1.1.529).</p>
   disease. In addition, they specify that those hospitalised in ICU
   include: ICU, REA (resuscitation units), URPA (post-anaesthesia
   resuscitation units) and other units with adequate staffing for
-  critical patients.</p>
+  critical patients.
 
 - We carried out a search for the H.A. to which each hospital belongs,
   using the [IdeCyL
@@ -253,7 +253,6 @@ Alpha (B.1.1.7), Delta (B.1.617.2) and Omicron (B.1.1.529).</p>
   hospitalised in ICU is carried out, by H.A. and day, saved in the
   **ICU** csv file, the header of which can be seen below.
 
-</p>
 
 ``` r
 # Load the data.table library
@@ -274,26 +273,20 @@ head(data)
     ## 5 06/11/2020 H.A. ÁVILA  1701    Ávila   9
     ## 6 07/11/2020 H.A. ÁVILA  1701    Ávila   9
 
-<div style="text-align: justify;">
-
 # Section 3. Auxiliary Information
 
-</div>
-
-<div style="text-align: justify;">
-
-Since the target variable is occupancy in ICU due to COVID-19, we looked
+<p align="justify"> Since the target variable is occupancy in ICU due to COVID-19, we looked
 at factors that could influence it, classifying them into two large
-blocks: **sociodemographic factors** and **epidemiological factors**, as
-shown in the diagram.
+blocks: <strong>sociodemographic factors</strong> and <strong>epidemiological factors</strong>, as
+shown in the diagram</p> in [Figure 3](#figure3).
 
-</div>
+<p align="center">
+  <a id="figure2"></a>
+  <img alt="figure3" src="./README_COVID_files/auxiliar_information.png">
+  <br>
+    <em>Figure 3: Auxiliar information diagram.</em>
+</p>
 
-<div style="margin-top: -300px; margin-bottom: -300px;">
-
-![](README_COVID_files/auxiliar_information.png)<!-- -->
-
-</div>
 
 ## 3.1 Sociodemographic indicators
 
