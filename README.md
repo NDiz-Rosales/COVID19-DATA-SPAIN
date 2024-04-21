@@ -454,63 +454,61 @@ disease severity and care pressure.</p>
 > - <p align="justify"><strong>COVID19_SEVERITY_INDICATORS_LAGS.csv</strong>: csv file constructed with all epidemiological indicators on the severity of the disease, specified by H.A. and day.</p>
 > - <p align="justify"><strong>COVID19_CARE_PRESSURE_INDICATORS_LAGS.csv</strong>: csv file constructed with all epidemiological indicators on COVID-19 care pressure, specified by H.A. and day.</p>
 
-
+<a href="https://analisis.datosabiertos.jcyl.es/explore/dataset/tasa-enfermos-acumulados-por-areas-de-salud/information/?flg=es-es&disjunctive.zbs_geo&sort=fecha">Sickness rate by basic health
+  areas.</a>
 ### 3.2.1 Disease spread
 
-<div style="text-align: justify;">
+<p align="justify">For its construction, we carry out the following steps:</p>
 
-For its construction, we carry out the following steps:
-
-- We consulted the Open Data Portal of the Junta de Castilla y León. We
-  downloaded the database [Sickness rate by basic health
-  areas.](https://analisis.datosabiertos.jcyl.es/explore/dataset/tasa-enfermos-acumulados-por-areas-de-salud/information/?flg=es-es&disjunctive.zbs_geo&sort=fecha)
-  In this database we have records at **Basic Health Zone** level. As
-  indicated in its platform it provides information on:
-  - Daily incidence of positives with confirmed or suspected COVID-19.
-  - Diagnostic tests for active infection, including both PCR and
-    antigen tests. It should be noted that as of **13/01/2022**, Ag
+- <p align="justify">We consulted the Open Data Portal of the Junta de Castilla y León. We
+  downloaded the database <a href="https://analisis.datosabiertos.jcyl.es/explore/dataset/tasa-enfermos-acumulados-por-areas-de-salud/information/?flg=es-es&disjunctive.zbs_geo&sort=fecha">Sickness rate by basic health
+  areas.</a> In this database we have records at <strong>Basic Health Zone</strong> level. As indicated in its platform it provides information on:</p>
+  
+  - <p align="justify">Daily incidence of positives with confirmed or suspected COVID-19.</p>
+  - <p align="justify">Diagnostic tests for active infection, including both PCR and
+    antigen tests. It should be noted that as of <strong>13/01/2022</strong>, Ag
     Autotest tests (Pharmacy Test), which are reported by citizens
     through the application of the Junta de Castilla y León, will also
-    be integrated into all the accounting systems of Castilla y León.
-- We check that in the target time range between 02/11/2020 and
-  06/03/2022 all information is available.
-- We assign each Basic Health Zone with its H.A., with the assignment
-  provided by the database itself, and aggregate the variables by H.A.
-- We defined the indicators indicated in the [Epidemic Surveillance
-  Strategies of the Ministry of
-  Health](https://www.sanidad.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/documentos/Nueva_estrategia_vigilancia_y_control.pdf),
-  which include the following:
-  - **prop_cases** or proportion of suspected COVID-19 positives.
+    be integrated into all the accounting systems of Castilla y León.</p>
+    
+- <p align="justify">We check that in the target time range between 02/11/2020 and
+  06/03/2022 all information is available.</p>
+- <p align="justify">We assign each Basic Health Zone with its H.A., with the assignment
+  provided by the database itself, and aggregate the variables by H.A.</p>
+- <p align="justify">We defined the indicators indicated in the <a href="https://www.sanidad.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/documentos/Nueva_estrategia_vigilancia_y_control.pdf">“Epidemic Surveillance
+  Strategies of the Ministry of Health”</a>, which include the following:</p>
+  
+  - <p align="justify"><strong>prop_cases</strong> or proportion of suspected COVID-19 positives.
     Calculated as COVID-19 positives (confirmed or suspected) among the
-    total population, per 100,000 inhabitants.
-  - **CI7** or 7-day cumulative incidence, calculated as the ratio of
+    total population, per 100,000 inhabitants.</p>
+  - <p align="justify"><strong>CI7</strong> or 7-day cumulative incidence, calculated as the ratio of
     7-day COVID-19 positives to total population per 100,000
-    inhabitants.
-  - **CI14** or 14-day cumulative incidence, calculated as the ratio of
+    inhabitants.</p>
+  - <p align="justify"><strong>CI14</strong> or 14-day cumulative incidence, calculated as the ratio of
     14-day COVID-19 positives to total population per 100,000
-    inhabitants.
-  - **positive_rate**, calculated as positives in a diagnostic test
-    divided by the number of diagnostic tests per 100.
-  - **positive_rate7** or 7-day positive rate, calculated as 7-day
+    inhabitants.</p>
+  - <p align="justify"><strong>positive_rate</strong>, calculated as positives in a diagnostic test
+    divided by the number of diagnostic tests per 100.</p>
+  - <p align="justify"><strong>positive_rate7</strong> or 7-day positive rate, calculated as 7-day
     positive diagnostic test results divided by the number of diagnostic
-    tests in 7 days per 100.
-  - **positive_rate14** or 14-day positive rate, calculated as the
+    tests in 7 days per 100.</p>
+  - <p align="justify"><strong>positive_rate14</strong> or 14-day positive rate, calculated as the
     positives in a 14-day diagnostic test divided by the number of
-    diagnostic tests in 14 days per 100.
-- Finally, we performed the lags for each variable. In this way we take
+    diagnostic tests in 14 days per 100.</p>
+    
+- <p align="justify">Finally, we performed the lags for each variable. In this way we take
   into account the delay caused by reporting delays and the inherent
-  nature of the disease itself. Specifically, for the **prop_cases** and
-  **positive_rate** variables, lags from 1 to 26 days are provided. For
-  the variables **CI7** and **positive_rate7** lags from 1 to 20 days.
-  For the variables **CI14** and **positive_rate14** lags from 1 to 14
-  days.
+  nature of the disease itself. Specifically, for the <strong>prop_cases</strong> and
+  <strong>positive_rate</strong> variables, lags from 1 to 26 days are provided. For
+  the variables <strong>CI7</strong> and <strong>positive_rate7</strong> lags from 1 to 20 days.
+  For the variables <strong>CI14</strong> and <strong>positive_rate14</strong> lags from 1 to 14
+  days.</p>
 
-All variables and their lags, together with the date, H.A., population
+<p align="justify">All variables and their lags, together with the date, H.A., population
 size and province identifier are stored in the csv file
-**COVID_SPREAD_INDICATORS**, stored in the folder **EPIDEMIOLOGICAL
-INDICATORS**, the header of which is shown below.
+<strong>COVID_SPREAD_INDICATORS</strong>, stored in the folder <strong>EPIDEMIOLOGICAL
+INDICATORS</strong>, the header of which is shown below.</p>
 
-</div>
 
 ``` r
 # Load the data.table library
