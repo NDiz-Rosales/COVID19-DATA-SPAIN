@@ -404,10 +404,8 @@ home places per 100 inhabitants over 65 years of age.
 
 </div>
 <p>
-
-<div style="border: 2px solid black; padding: 10px; background-color: #EAFCEA;text-align: justify;">
-
-The data files referenced in this section are located in the
+<div style="border: 2px solid black; padding: 10px; background-color: #EAFCEA; text-align: justify;">
+    The data files referenced in this section are located in the
 **SOCIODEMOGRAPHIC INDICATORS** folder and correspond to:
 
 - **ORIGINAL SOURCES**: Folder containing the original data files
@@ -440,7 +438,6 @@ The data files referenced in this section are located in the
   sociodemographic indicators contemplated by H.A. (population,
   population density and rate of number of retirement home home places
   per 100 people over 65 years of age).
-
 </div>
 
 </p>
