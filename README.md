@@ -318,7 +318,7 @@ home places per 100 inhabitants over 65 years of age.</p>
 
 <p align="justify"> In order to deepen the analysis, we aimed to obtain the total population
 for each H.A., but also the proportion of women, men, people under 16,
-between 16 and 64 and over 65 years</p>.
+between 16 and 64 and over 65 years.</p>
 
 - <p align="justify">Firstly, we extracted the information from the INE’s 2021 Population
   and Housing Census, and specifically, from the results of <a href="https://ine.es/jaxiT3/Tabla.htm?t=33571&L=0">“2021
@@ -329,17 +329,17 @@ between 16 and 64 and over 65 years</p>.
   available, to take into consideration the population effect of
   COVID-19 in 2020.</p>
 - <p align="justify">We then define the following variables:</p>
-  - <strong>POP_2021</strong>: Total number of inhabitants per H.A.
-  - <strong>sex0</strong>: Base 1 proportion of the number of men.
-  - <strong>sex1</strong>: Base 1 proportion of the number of women.
-  - <strong>cit0</strong>: Base 1 proportion of the number of persons with Spanish
+   - <strong>POP_2021</strong>: Total number of inhabitants per H.A.
+   - <strong>sex0</strong>: Base 1 proportion of the number of men.
+   - <strong>sex1</strong>: Base 1 proportion of the number of women.
+   - <strong>cit0</strong>: Base 1 proportion of the number of persons with Spanish
     nationality or dual nationality (one of them Spanish).
-  - <strong>cit1</strong>: Base 1 proportion of the number of persons without Spanish
+   - <strong>cit1</strong>: Base 1 proportion of the number of persons without Spanish
     nationality.
-  - <strong>age0</strong>: Base 1 proportion of persons under 16 years of age.
-  - <strong>age1</strong>: Base 1 proportion of persons aged between 16 and 64 years
+   - <strong>age0</strong>: Base 1 proportion of persons under 16 years of age.
+   - <strong>age1</strong>: Base 1 proportion of persons aged between 16 and 64 years
     of age.
-  - <strong>age2</strong>: Base 1 proportion of persons aged over 64 years.
+   - <strong>age2</strong>: Base 1 proportion of persons aged over 64 years.
 - <p align="justify">Finally, to obtain the values of the variables, we aggregate, for each
   H.A., the information collected by the INE at the municipality level.</p>
 
