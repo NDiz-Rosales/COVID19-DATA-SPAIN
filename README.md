@@ -404,7 +404,6 @@ home places per 100 inhabitants over 65 years of age.
 > [!NOTE]
 > The data files referenced in this section are located in the **SOCIODEMOGRAPHIC INDICATORS** folder and correspond to:
 > - **ORIGINAL SOURCES**: Folder containing the original data files downloaded from each source web page referenced. Specifically:
-
 >   - - **population_municipalities.csv**: Data file of the Instituto Nacional de Estadística (INE) corresponding to 2021 Population and Housing Census, containing information on the [2021 Population by sex, municipalities, nationality (Spanish/foreign) and age (large groups)](https://ine.es/jaxiT3/Tabla.htm?t=33571&L=0).
 >   - - **surface_municipalities.csv**: Data file of the Instituto Geográfico Nacional (IGN), specifically the [“Geographic Nomenclator of Municipalities and Population Entities”](https://www.ign.es/web/rcc-nomenclator-nacional.) showing the geographical surface of each territory.
 >   - - **retirement home_places.csv**: Data files from the open data portal [“Envejecimiento en Red”](https://envejecimientoenred.csic.es/datos-abiertos/residencias/), detailing, for each province, the existing old people’s homes, as well as their number of places and municipal location.
@@ -417,7 +416,6 @@ home places per 100 inhabitants over 65 years of age.
 >     - - **retirement home_places_soria.csv**
 >     - - **retirement home_places_valladolid.csv**
 >     - - **retirement home_places_zamora.csv**
-
 > - **sociodemographic_indicators.csv**: csv file constructed with all the sociodemographic indicators contemplated by H.A. (population, population density and rate of number of retirement home home places per 100 people over 65 years of age).
 
 
