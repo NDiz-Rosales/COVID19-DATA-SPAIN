@@ -113,7 +113,7 @@ COVID-19 patients</strong> by health area and day in Castilla y León.</p>
 <p align="justify"> As a result, we obtain the file <strong>municipality_health_areas.csv</strong> with
 the H.A-municipalities correspondence, attached in the <strong>HEALTH AREAS</strong>
 folder and whose header is illustrated below. Specifically, there are
-2248 rows and 7 columns.This corresponds to the 2248 municipalities in
+2248 rows and 7 columns. This corresponds to the 2248 municipalities in
 Castilla y León and the following variables:</p>
 
 - <p align="justify"><strong>ID_HA</strong>: Official H.A. identifier code.</p>
