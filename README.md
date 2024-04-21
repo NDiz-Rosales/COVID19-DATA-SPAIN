@@ -96,7 +96,7 @@ can be seen in [Figure 1](#figure1), in the north-western fringe of
 the Peninsula.
 
 <p align="center">
-  <img alt="figure1" src="./README_COVID_files/mapSpainCL.png">
+  <img alt="#figure1" src="./README_COVID_files/mapSpainCL.png">
   <br>
     <em>Figure 1: Geographical location of Castilla y León.</em>
 </p>
