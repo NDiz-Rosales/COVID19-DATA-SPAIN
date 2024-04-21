@@ -5,9 +5,7 @@ in Spain[^1]
 
 **Authors:**
 -  <p align="justify"> Name: Naomi Diz-Rosales<sup>1</sup>, María José Lombardía<sup>2</sup>, Domingo Morales<sup>3</sup> </p>
--  <p align="justify"> Affiliation: <sup>1</sup>naomi.diz.rosales@udc.es, CITIC, Universidade da Coruña, Spain.  
-  <sup>2</sup>maria.jose.lombardia@udc.es, CITIC, Universidade da Coruña, Spain.  
-  <sup>3</sup>d.morales@umh.es, IUICIO, Universidad Miguel Hernández de Elche, Spain. </p>
+-  <p align="justify"> Affiliation: <sup>1</sup>naomi.diz.rosales@udc.es, CITIC, Universidade da Coruña, Spain. <sup>2</sup>maria.jose.lombardia@udc.es, CITIC, Universidade da Coruña, Spain. <sup>3</sup>d.morales@umh.es, IUICIO, Universidad Miguel Hernández de Elche, Spain. </p>
 
   ------------------------------------------------------------------------
 
