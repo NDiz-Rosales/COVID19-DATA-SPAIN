@@ -86,19 +86,12 @@ COVID-19 patients** by health area and day in Castilla y León.</p>
 > The data files and images referenced in this section are located in the **HEALTH AREAS** folder, and correspond to:
 > 
 > - **municipality_health_areas.csv**: file corresponding to the equivalences between municipalities and health areas or H.A.
-> - **mapSpainCL.png**: image represented in [Figure 1](#fig:mapSpain).
+> - **mapSpainCL.png**: image represented in [Figura 1](#figura1)
 > - **mapCastillaLeon.png**: image represented in [Figure 2](#fig:healthareaCL).
 
-**mapSpainCL.png**: image represented in [Figure 1](#fig:mapSpain).
 
-
-![This is the caption\label{mylabel}](./README_COVID_files/mapSpainCL.png)
-See figure \ref{mylabel}.
-
-[Enlace a la Figura 1](#figura1)
-
-![Texto alternativo](./README_COVID_files/mapSpainCL.png)
-Figura 1: Descripción de la figura
+![Geographical location of Castilla y León](./README_COVID_files/mapSpainCL.png)
+Figura 1: Geographical location of Castilla y León.
 
 
 The domains or spatial areas of interest correspond to the Health Areas
