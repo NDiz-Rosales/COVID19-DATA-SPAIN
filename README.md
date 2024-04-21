@@ -84,9 +84,11 @@ COVID-19 patients** by health area and day in Castilla y León.</p>
 
 > [!NOTE]
 > <p align="justify"> The data files and images referenced in this section are located in the **HEALTH AREAS** folder, and correspond to:
+  
 > - **municipality_health_areas.csv**: file corresponding to the equivalences between municipalities and health areas or H.A.
 > - **mapSpainCL.png**: image represented in [Figure 1](#fig:mapSpain).
-> - **mapCastillaLeon.png**: image represented in [Figure 2](#fig:healthareaCL).</p>
+> - **mapCastillaLeon.png**: image represented in [Figure 2](#fig:healthareaCL).
+</p>
 
 The domains or spatial areas of interest correspond to the Health Areas
 (H.A.) of Castilla y León, an Autonomous Community in Spain, located, as
