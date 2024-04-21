@@ -277,8 +277,8 @@ head(data)
 
 <p align="justify"> Since the target variable is occupancy in ICU due to COVID-19, we looked
 at factors that could influence it, classifying them into two large
-blocks: <strong>sociodemographic factors</strong> and <strong>epidemiological factors</strong>, as
-shown in the diagram</p> in [Figure 3](#figure3).
+blocks: <strong>sociodemographic factors</strong> and <strong>epidemiological factors</strong></p>.
+[Figure 3](#figure3) shows schematically.
 
 <p align="center">
   <a id="figure2"></a>
