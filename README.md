@@ -1,7 +1,7 @@
 Construction and descriptive COVID-19 databases by health area and day
 in Spain[^1]
 ================
-2024-04-08
+2024-04-21
 
 ------------------------------------------------------------------------
 # Structure
