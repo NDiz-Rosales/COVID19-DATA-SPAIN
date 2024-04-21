@@ -149,7 +149,7 @@ the Peninsula.
 
 <div id="fig:mapSpain" class="figure" style="text-align: center;">
 
-<img src="./HEALTH AREAS/mapSpainCL.png" alt="Geographical location of Castilla y León." style="display: inline-block;">
+<img src="./README_COVID_files/mapSpainCL.png" alt="Geographical location of Castilla y León." style="display: inline-block;">
 <p class="caption">
 Figure 1: Geographical location of Castilla y León.
 </p>
@@ -162,7 +162,7 @@ The spatial domains of interest correspond to its 11 H.A., as shown in
 <div id="fig:mapCastillaLeon" class="figure"
 style="text-align: center;">
 
-<img src="./HEALTH AREAS/mapCastillaLeon.png" alt="H.A. of Castilla y León." style="display: inline-block;">
+<img src="./README_COVID_files/mapCastillaLeon.png" alt="H.A. of Castilla y León." style="display: inline-block;">
 <p class="caption">
 Figure 2: H.A. of Castilla y León.
 </p>
@@ -384,22 +384,11 @@ at factors that could influence it, classifying them into two large
 blocks: **sociodemographic factors** and **epidemiological factors**, as
 shown in the diagram.
 
-<div style="position: relative;">
-  <img src="README_COVID_files/auxiliar_information.png" alt="Texto alternativo" style="width: 100%;">
-  <a href="#31-sociodemographic-indicators" style="position: absolute; top: 44.8649%; left: 24.6875%; width: 23.125%%; height: 100%;"></a>
-  <a href="#311-population" style="position: absolute; top: 0; left: 33%; width: 33%; height: 100%;"></a>
-  <a href="#312-population-density" style="position: absolute; top: 0; left: 66%; width: 34%; height: 100%;"></a>
-</div>
-
-
-
-
-
 </div>
 
 <div style="margin-top: -300px; margin-bottom: -300px;">
 
-![](README_COVID_files/figure-gfm/unnamed-chunk-3-1.png)<!-- -->
+![](README_COVID_files/auxiliar_information.png)<!-- -->
 
 </div>
 
