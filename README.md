@@ -234,6 +234,8 @@ Alpha (B.1.1.7), Delta (B.1.617.2) and Omicron (B.1.1.529).</p>
   - <p align="justify">H.A. Valladolid Oeste: Hospital Universitario Río Hortega; Hospital
     Medina del Campo.</p>
   - <p align="justify">H.A. Zamora: Complejo Asistencial de Zamora.</p>
+  
+<p align="justify">In addition, it should be noted that hospitals Santiago Apóstol, Santos Reyes and Medina del Campo do not have ICUs.</p>
 
 - <p align="justify"> We checked the available time range to see if there are observations
   for all the days between <strong>02/11/2020 and 06/03/2022</strong>. Thus, we find
